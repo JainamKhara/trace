@@ -1,0 +1,479 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 690" width="100%" height="100%">
+  <defs>
+    <!-- Crisp Solid Markers (No Gradients) -->
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowIndigo" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9 z" fill="#4f46e5"/>
+    </marker>
+    <marker id="arrowEmerald" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrowMuted" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+
+    .hdr-title { font-size: 15px; font-weight: 800; fill: #0f172a; letter-spacing: 0.5px; }
+    .hdr-sub { font-size: 11px; font-weight: 500; fill: #475569; }
+    .hdr-badge { font-size: 9.5px; font-weight: 700; fill: #2563eb; }
+
+    .sec-title { font-size: 11.5px; font-weight: 800; fill: #1e293b; letter-spacing: 0.8px; text-transform: uppercase; }
+    .sec-sub { font-size: 9.5px; font-weight: 500; fill: #64748b; }
+
+    .card-title { font-size: 11.5px; font-weight: 700; fill: #0f172a; }
+    .card-tag { font-size: 8.5px; font-weight: 700; letter-spacing: 0.4px; }
+    .card-desc { font-size: 9.5px; font-weight: 400; fill: #475569; }
+
+    .connector-wire { stroke: #2563eb; stroke-width: 1.5; fill: none; }
+    .connector-muted { stroke: #94a3b8; stroke-width: 1.25; fill: none; stroke-dasharray: 4 3; }
+    .connector-indigo { stroke: #4f46e5; stroke-width: 1.5; fill: none; }
+    .connector-emerald { stroke: #059669; stroke-width: 1.5; fill: none; }
+
+    .wf-num { font-size: 11px; font-weight: 800; fill: #ffffff; text-anchor: middle; }
+    .wf-step { font-size: 10.5px; font-weight: 800; fill: #0f172a; text-transform: uppercase; }
+    .wf-desc { font-size: 9px; font-weight: 500; fill: #64748b; }
+  </style>
+
+  <!-- Canvas Surface: Clean Matte Technical Background -->
+  <rect width="1160" height="690" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Top Title Strip -->
+  <g transform="translate(30, 24)">
+    <rect x="0" y="0" width="6" height="26" rx="2" fill="#2563eb"/>
+    <text x="16" y="14" class="font-sans hdr-title">TRACE // SYSTEM ARCHITECTURE &amp; OPERATIONAL WORKFLOW</text>
+    <text x="16" y="27" class="font-sans hdr-sub">Heterogeneous Intake → Canonical Normalization → Entity Resolution Core → Visual Workspaces → Legal Dossier</text>
+    <rect x="895" y="4" width="205" height="22" rx="4" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+    <text x="997" y="19" class="font-mono hdr-badge" text-anchor="middle">AIR-GAPPED FORENSIC SUITE</text>
+    <line x1="0" y1="36" x2="1100" y2="36" stroke="#e2e8f0" stroke-width="1"/>
+  </g>
+
+  <!-- ================= 1. INGESTION COLUMN ================= -->
+  <g transform="translate(30, 75)">
+    <!-- Group Container -->
+    <rect width="200" height="480" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2"/>
+    <text x="14" y="24" class="font-sans sec-title">01. FORENSIC INTAKE</text>
+    <text x="14" y="38" class="font-sans sec-sub">Heterogeneous Sources</text>
+    <line x1="14" y1="46" x2="186" y2="46" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Pod 1: CDR & IPDR -->
+    <g transform="translate(10, 56)">
+      <rect width="180" height="92" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="10" y="10" width="22" height="22" rx="4" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <path d="M16 26 l5-10 5 10 M18 22 h6" stroke="#2563eb" stroke-width="1.2" fill="none"/>
+      <text x="38" y="20" class="font-sans card-title">CDR &amp; IPDR Logs</text>
+      <text x="38" y="31" class="font-mono card-tag" fill="#2563eb">TELEPHONY FORENSICS</text>
+      <text x="10" y="48" class="font-sans card-desc">• Cell tower triangulations</text>
+      <text x="10" y="62" class="font-sans card-desc">• Call duration &amp; SMS logs</text>
+      <text x="10" y="76" class="font-sans card-desc">• IMEI / IMSI multi-SIM pairings</text>
+    </g>
+
+    <!-- Pod 2: Banking & Hawala -->
+    <g transform="translate(10, 158)">
+      <rect width="180" height="92" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="10" y="10" width="22" height="22" rx="4" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+      <path d="M16 21 h10 M21 16 v10 M17 25 l8-8" stroke="#059669" stroke-width="1.2" fill="none"/>
+      <text x="38" y="20" class="font-sans card-title">Banking &amp; Hawala</text>
+      <text x="38" y="31" class="font-mono card-tag" fill="#059669">FINANCIAL INTELLIGENCE</text>
+      <text x="10" y="48" class="font-sans card-desc">• Structured deposit spikes</text>
+      <text x="10" y="62" class="font-sans card-desc">• Multi-hop mule accounts</text>
+      <text x="10" y="76" class="font-sans card-desc">• Smurfing &amp; cash velocity</text>
+    </g>
+
+    <!-- Pod 3: ANPR Cameras -->
+    <g transform="translate(10, 260)">
+      <rect width="180" height="92" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="10" y="10" width="22" height="22" rx="4" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+      <rect x="15" y="18" width="12" height="7" rx="1.5" stroke="#7c3aed" stroke-width="1.2" fill="none"/>
+      <circle cx="17.5" cy="25" r="1.5" fill="#7c3aed"/>
+      <circle cx="24.5" cy="25" r="1.5" fill="#7c3aed"/>
+      <text x="38" y="20" class="font-sans card-title">ANPR Toll Cameras</text>
+      <text x="38" y="31" class="font-mono card-tag" fill="#7c3aed">HIGHWAY SURVEILLANCE</text>
+      <text x="10" y="48" class="font-sans card-desc">• License plate optical captures</text>
+      <text x="10" y="62" class="font-sans card-desc">• Toll plaza passage times</text>
+      <text x="10" y="76" class="font-sans card-desc">• Coordinated convoy runs</text>
+    </g>
+
+    <!-- Pod 4: Field Exhibits & FIRs -->
+    <g transform="translate(10, 362)">
+      <rect width="180" height="92" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="10" y="10" width="22" height="22" rx="4" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+      <rect x="16" y="15" width="10" height="12" rx="1" stroke="#d97706" stroke-width="1.2" fill="none"/>
+      <line x1="19" y1="19" x2="23" y2="19" stroke="#d97706" stroke-width="1"/>
+      <line x1="19" y1="23" x2="23" y2="23" stroke="#d97706" stroke-width="1"/>
+      <text x="38" y="20" class="font-sans card-title">Police FIRs &amp; Exhibits</text>
+      <text x="38" y="31" class="font-mono card-tag" fill="#d97706">CRIMINAL CASE RECORDS</text>
+      <text x="10" y="48" class="font-sans card-desc">• Multi-station FIR dossiers</text>
+      <text x="10" y="62" class="font-sans card-desc">• Seizure memos &amp; property</text>
+      <text x="10" y="76" class="font-sans card-desc">• Forensic disk &amp; phone dumps</text>
+    </g>
+  </g>
+
+  <!-- ================= 2. NORMALIZATION BUS (PERFECTLY ALIGNED) ================= -->
+  <!-- Clean Straight Connector Wires from Ingestion Pods into Gateway Pods -->
+  <path d="M 220 177 L 248 177" class="connector-wire" marker-end="url(#arrowBlue)"/>
+  <path d="M 220 279 L 248 279" class="connector-wire" marker-end="url(#arrowBlue)"/>
+  <path d="M 220 381 L 248 381" class="connector-wire" marker-end="url(#arrowBlue)"/>
+  <path d="M 220 483 L 248 483" class="connector-wire" marker-end="url(#arrowBlue)"/>
+
+  <g transform="translate(250, 75)">
+    <!-- Vertical Gateway Card -->
+    <rect width="96" height="480" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+    <rect x="0" y="0" width="96" height="34" rx="6" fill="#334155"/>
+    <text x="48" y="21" class="font-mono" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">GATEWAY BUS</text>
+
+    <!-- Pod 1: Canonical Parser (Aligned with CDR) -->
+    <g transform="translate(8, 56)">
+      <rect width="80" height="92" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="20" class="font-mono" font-size="8" font-weight="800" fill="#2563eb" text-anchor="middle">CANONICAL</text>
+      <text x="40" y="32" class="font-mono" font-size="8" font-weight="800" fill="#2563eb" text-anchor="middle">PARSER</text>
+      <line x1="8" y1="40" x2="72" y2="40" stroke="#f1f5f9" stroke-width="1"/>
+      <text x="40" y="55" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">E.164 Phone</text>
+      <text x="40" y="68" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">Plate Regex</text>
+      <text x="40" y="81" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">IFSC Format</text>
+    </g>
+
+    <!-- Pod 2: Custody Checksum (Aligned with Banking) -->
+    <g transform="translate(8, 158)">
+      <rect width="80" height="92" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="20" class="font-mono" font-size="8" font-weight="800" fill="#059669" text-anchor="middle">CUSTODY</text>
+      <text x="40" y="32" class="font-mono" font-size="8" font-weight="800" fill="#059669" text-anchor="middle">CHECKSUM</text>
+      <line x1="8" y1="40" x2="72" y2="40" stroke="#f1f5f9" stroke-width="1"/>
+      <text x="40" y="55" class="font-mono" font-size="7" font-weight="700" fill="#059669" text-anchor="middle">SHA-256 HASH</text>
+      <text x="40" y="68" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">Section 65B</text>
+      <text x="40" y="81" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">Evidence Act</text>
+    </g>
+
+    <!-- Pod 3: Schema Validator (Aligned with ANPR) -->
+    <g transform="translate(8, 260)">
+      <rect width="80" height="92" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="20" class="font-mono" font-size="8" font-weight="800" fill="#7c3aed" text-anchor="middle">SCHEMA</text>
+      <text x="40" y="32" class="font-mono" font-size="8" font-weight="800" fill="#7c3aed" text-anchor="middle">VALIDATOR</text>
+      <line x1="8" y1="40" x2="72" y2="40" stroke="#f1f5f9" stroke-width="1"/>
+      <text x="40" y="55" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">JSON / CSV</text>
+      <text x="40" y="68" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">Type Guards</text>
+      <text x="40" y="81" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">Sanitize Input</text>
+    </g>
+
+    <!-- Pod 4: Air-Gapped Local Storage (Aligned with FIRs) -->
+    <g transform="translate(8, 362)">
+      <rect width="80" height="92" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="20" class="font-mono" font-size="8" font-weight="800" fill="#334155" text-anchor="middle">AIR-GAPPED</text>
+      <text x="40" y="32" class="font-mono" font-size="8" font-weight="800" fill="#334155" text-anchor="middle">STORAGE</text>
+      <line x1="8" y1="40" x2="72" y2="40" stroke="#f1f5f9" stroke-width="1"/>
+      <text x="40" y="55" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">Local IPC Store</text>
+      <text x="40" y="68" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">Zero Cloud</text>
+      <text x="40" y="81" class="font-sans" font-size="7.5" fill="#64748b" text-anchor="middle">Leak Vector</text>
+    </g>
+  </g>
+
+  <!-- Wires from Gateway Bus into Intelligence Core -->
+  <path d="M 346 177 L 372 177 L 372 205 L 388 205" class="connector-indigo" marker-end="url(#arrowIndigo)"/>
+  <path d="M 346 279 L 388 279" class="connector-indigo" marker-end="url(#arrowIndigo)"/>
+  <path d="M 346 381 L 388 381" class="connector-indigo" marker-end="url(#arrowIndigo)"/>
+  <path d="M 346 483 L 372 483 L 372 455 L 388 455" class="connector-indigo" marker-end="url(#arrowIndigo)"/>
+
+  <!-- ================= 3. INTELLIGENCE CORE (CENTER STAGE) ================= -->
+  <g transform="translate(390, 75)">
+    <!-- Enclosure for Core Engines -->
+    <rect width="370" height="480" rx="6" fill="#f8fafc" stroke="#c7d2fe" stroke-width="1.5"/>
+    <rect x="0" y="0" width="370" height="34" rx="6" fill="#e0e7ff"/>
+    <text x="14" y="21" class="font-sans sec-title" fill="#3730a3">02. TRACE LINK INTELLIGENCE CORE</text>
+    <text x="356" y="21" class="font-mono" font-size="8.5" font-weight="700" fill="#4338ca" text-anchor="end">IN-MEMORY RUNTIME</text>
+
+    <!-- Sub-Engine A: Entity Resolution Engine -->
+    <g transform="translate(12, 46)">
+      <rect width="346" height="200" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="12" y="20" class="font-sans card-title" fill="#1e1b4b">Cross-Case Entity Resolution Engine</text>
+      <text x="12" y="32" class="font-mono card-tag" fill="#4f46e5">IDENTITY LINKAGE &amp; PROBABILISTIC MATCHING</text>
+      <line x1="12" y1="38" x2="334" y2="38" stroke="#f1f5f9" stroke-width="1"/>
+
+      <text x="12" y="55" class="font-sans card-desc">• Multi-FIR Alias Clustering: Matches phonetic spelling variations</text>
+      <text x="12" y="70" class="font-sans card-desc">• Shared Footprint Discovery: Collates burner SIMs, IMEI &amp; bank accounts</text>
+      <text x="12" y="85" class="font-sans card-desc">• Cross-Case Bridge Detection: Identifies common syndicates across FIRs</text>
+
+      <!-- Concrete Visual Demonstration inside Engine -->
+      <g transform="translate(12, 96)">
+        <rect width="322" height="92" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="10" y="16" class="font-mono" font-size="8" font-weight="700" fill="#64748b">TRI-STATE EVIDENCE CLASSIFICATION MATRIX</text>
+        
+        <!-- Score Bar 1 -->
+        <rect x="10" y="24" width="90" height="28" rx="3" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+        <circle cx="20" cy="38" r="4" fill="#059669"/>
+        <text x="28" y="35" class="font-mono" font-size="8" font-weight="800" fill="#065f46">CONFIRMED</text>
+        <text x="28" y="45" class="font-mono" font-size="7" fill="#047857">Confidence ≥ 90%</text>
+
+        <!-- Score Bar 2 -->
+        <rect x="108" y="24" width="90" height="28" rx="3" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+        <circle cx="118" cy="38" r="4" fill="#d97706"/>
+        <text x="126" y="35" class="font-mono" font-size="8" font-weight="800" fill="#92400e">PROBABLE</text>
+        <text x="126" y="45" class="font-mono" font-size="7" fill="#b45309">Confidence ≥ 70%</text>
+
+        <!-- Score Bar 3 -->
+        <rect x="206" y="24" width="106" height="28" rx="3" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+        <circle cx="216" cy="38" r="4" fill="#64748b"/>
+        <text x="224" y="35" class="font-mono" font-size="8" font-weight="800" fill="#334155">SUSPECT</text>
+        <text x="224" y="45" class="font-mono" font-size="7" fill="#475569">Flagged for Review</text>
+
+        <!-- Dynamic Rule Output -->
+        <rect x="10" y="58" width="302" height="24" rx="3" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+        <text x="16" y="73" class="font-mono" font-size="7.5" font-weight="700" fill="#dc2626">HIGH RISK LEAD: Cross-FIR Bridge between Case #104 &amp; Case #207</text>
+      </g>
+    </g>
+
+    <!-- Sub-Engine B: Relational Graph & Topology Engine -->
+    <g transform="translate(12, 258)">
+      <rect width="346" height="210" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="12" y="20" class="font-sans card-title" fill="#1e1b4b">Cytoscape Graph &amp; Topology Engine</text>
+      <text x="12" y="32" class="font-mono card-tag" fill="#4f46e5">PHYSICS LAYOUTS &amp; MULTI-HOP EXPANSION</text>
+      <line x1="12" y1="38" x2="334" y2="38" stroke="#f1f5f9" stroke-width="1"/>
+
+      <text x="12" y="55" class="font-sans card-desc">• In-Memory Relational Graph: Instant adjacency lookups without DB delay</text>
+      <text x="12" y="70" class="font-sans card-desc">• Layout Algorithms: Cose-Bilkent (force-directed), Concentric, Radial</text>
+      <text x="12" y="85" class="font-sans card-desc">• k-Hop Expansion &amp; Path Finding: Reveals hidden intermediaries</text>
+
+      <!-- Mini Network Diagram Inside Graph Engine -->
+      <g transform="translate(12, 96)">
+        <rect width="322" height="102" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+        
+        <!-- Graph Links with Edge Badges -->
+        <line x1="161" y1="46" x2="55" y2="32" stroke="#2563eb" stroke-width="1.5"/>
+        <line x1="161" y1="46" x2="265" y2="32" stroke="#059669" stroke-width="1.5"/>
+        <line x1="161" y1="46" x2="95" y2="76" stroke="#7c3aed" stroke-width="1.5"/>
+        <line x1="161" y1="46" x2="225" y2="76" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="3 2"/>
+
+        <!-- Edge Labels -->
+        <rect x="94" y="32" width="34" height="12" rx="2" fill="#ffffff" stroke="#bfdbfe" stroke-width="0.8"/>
+        <text x="111" y="41" class="font-mono" font-size="6" font-weight="700" fill="#2563eb" text-anchor="middle">CALLED</text>
+
+        <rect x="194" y="32" width="46" height="12" rx="2" fill="#ffffff" stroke="#a7f3d0" stroke-width="0.8"/>
+        <text x="217" y="41" class="font-mono" font-size="6" font-weight="700" fill="#059669" text-anchor="middle">TRANSFERRED</text>
+
+        <rect x="112" y="65" width="40" height="12" rx="2" fill="#ffffff" stroke="#e9d5ff" stroke-width="0.8"/>
+        <text x="132" y="74" class="font-mono" font-size="6" font-weight="700" fill="#7c3aed" text-anchor="middle">CO-TRAVEL</text>
+
+        <rect x="175" y="65" width="44" height="12" rx="2" fill="#ffffff" stroke="#fecaca" stroke-width="0.8"/>
+        <text x="197" y="74" class="font-mono" font-size="6" font-weight="700" fill="#dc2626" text-anchor="middle">CROSS-CASE</text>
+
+        <!-- Center Master Suspect Node -->
+        <circle cx="161" cy="46" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+        <text x="161" y="49" class="font-mono" font-size="7" font-weight="800" fill="#ffffff" text-anchor="middle">P-01</text>
+        <text x="161" y="66" class="font-sans" font-size="7.5" font-weight="700" fill="#0f172a" text-anchor="middle">Master Suspect</text>
+
+        <!-- Peripheral Nodes -->
+        <!-- Phone Node -->
+        <circle cx="55" cy="32" r="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+        <text x="55" y="35" class="font-mono" font-size="6.5" font-weight="800" fill="#2563eb" text-anchor="middle">CDR</text>
+        <text x="55" y="49" class="font-sans" font-size="7" font-weight="600" fill="#475569" text-anchor="middle">+91 98201...</text>
+
+        <!-- Account Node -->
+        <circle cx="265" cy="32" r="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+        <text x="265" y="35" class="font-mono" font-size="6.5" font-weight="800" fill="#059669" text-anchor="middle">BANK</text>
+        <text x="265" y="49" class="font-sans" font-size="7" font-weight="600" fill="#475569" text-anchor="middle">Escrow Mule</text>
+
+        <!-- Vehicle Node -->
+        <circle cx="95" cy="76" r="10" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.5"/>
+        <text x="95" y="79" class="font-mono" font-size="6.5" font-weight="800" fill="#7c3aed" text-anchor="middle">ANPR</text>
+        <text x="95" y="92" class="font-sans" font-size="7" font-weight="600" fill="#475569" text-anchor="middle">DL-08-AB</text>
+
+        <!-- Linked Syndicate (Alert) -->
+        <circle cx="225" cy="76" r="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+        <text x="225" y="79" class="font-mono" font-size="6.5" font-weight="800" fill="#dc2626" text-anchor="middle">FIR</text>
+        <text x="225" y="92" class="font-sans" font-size="7" font-weight="700" fill="#dc2626" text-anchor="middle">Syndicate B</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Output Wires from Engine to Workspaces -->
+  <path d="M 760 185 L 780 185" class="connector-wire" marker-end="url(#arrowBlue)"/>
+  <path d="M 760 310 L 780 310" class="connector-wire" marker-end="url(#arrowBlue)"/>
+  <path d="M 760 445 L 780 445" class="connector-wire" marker-end="url(#arrowBlue)"/>
+
+  <!-- ================= 4. ANALYST WORKSPACES ================= -->
+  <g transform="translate(782, 75)">
+    <rect width="180" height="480" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2"/>
+    <text x="12" y="24" class="font-sans sec-title">03. WORKSPACES</text>
+    <text x="12" y="38" class="font-sans sec-sub">Interactive Exploration</text>
+    <line x1="12" y1="46" x2="168" y2="46" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- App 1: Dynamic Graph View -->
+    <g transform="translate(10, 56)">
+      <rect width="160" height="120" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="8" y="8" width="16" height="16" rx="3" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <circle cx="16" cy="16" r="3" fill="#2563eb"/>
+      <text x="30" y="18" class="font-sans card-title" font-size="10.5">Cytoscape Canvas</text>
+      <text x="30" y="28" class="font-mono card-tag" font-size="7.5" fill="#2563eb">TOPOLOGY WORKSPACE</text>
+      <text x="8" y="46" class="font-sans card-desc">• Live physics &amp; force clustering</text>
+      <text x="8" y="59" class="font-sans card-desc">• Degree centrality filtering</text>
+      <text x="8" y="72" class="font-sans card-desc">• Shortest-path highlighting</text>
+      <text x="8" y="85" class="font-sans card-desc">• Multi-case graph merge</text>
+      <text x="8" y="98" class="font-sans card-desc">• High-res forensic snapshot</text>
+      <text x="8" y="111" class="font-mono" font-size="7" font-weight="700" fill="#059669">60 FPS Hardware Render</text>
+    </g>
+
+    <!-- App 2: Chrono Timeline -->
+    <g transform="translate(10, 188)">
+      <rect width="160" height="120" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="8" y="8" width="16" height="16" rx="3" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+      <line x1="12" y1="16" x2="20" y2="16" stroke="#7c3aed" stroke-width="1.5"/>
+      <text x="30" y="18" class="font-sans card-title" font-size="10.5">Timeline Matrix</text>
+      <text x="30" y="28" class="font-mono card-tag" font-size="7.5" fill="#7c3aed">GEO-TEMPORAL RECON</text>
+      <text x="8" y="46" class="font-sans card-desc">• Synchronized event feeds</text>
+      <text x="8" y="59" class="font-sans card-desc">• Toll passes vs call timings</text>
+      <text x="8" y="72" class="font-sans card-desc">• Coordinated incident flares</text>
+      <text x="8" y="85" class="font-sans card-desc">• Playback timeline scrubber</text>
+      <text x="8" y="98" class="font-sans card-desc">• Multi-suspect interval track</text>
+      <text x="8" y="111" class="font-mono" font-size="7" font-weight="700" fill="#7c3aed">Zero Missing Seconds</text>
+    </g>
+
+    <!-- App 3: Entity Inspector -->
+    <g transform="translate(10, 320)">
+      <rect width="160" height="135" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="8" y="8" width="16" height="16" rx="3" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+      <rect x="12" y="12" width="8" height="8" stroke="#059669" stroke-width="1.2" fill="none"/>
+      <text x="30" y="18" class="font-sans card-title" font-size="10.5">Entity Inspector</text>
+      <text x="30" y="28" class="font-mono card-tag" font-size="7.5" fill="#059669">TELEMETRY DRAWER</text>
+      <text x="8" y="46" class="font-sans card-desc">• Deep attribute telemetry</text>
+      <text x="8" y="59" class="font-sans card-desc">• Masked national ID lookup</text>
+      <text x="8" y="72" class="font-sans card-desc">• Direct evidence source docs</text>
+      <text x="8" y="85" class="font-sans card-desc">• Confidence rationale notes</text>
+      <text x="8" y="98" class="font-sans card-desc">• Analyst manual override tag</text>
+      <text x="8" y="111" class="font-sans card-desc">• Associated case cross-links</text>
+      <text x="8" y="124" class="font-mono" font-size="7" font-weight="700" fill="#059669">Tamper-Proof Audit Log</text>
+    </g>
+  </g>
+
+  <!-- Output Wires from Workspaces to Deliverables -->
+  <path d="M 962 185 L 980 185" class="connector-wire" marker-end="url(#arrowBlue)"/>
+  <path d="M 962 395 L 980 395" class="connector-emerald" marker-end="url(#arrowEmerald)"/>
+
+  <!-- ================= 5. OPERATIONAL DELIVERABLES ================= -->
+  <g transform="translate(982, 75)">
+    <rect width="148" height="480" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2"/>
+    <text x="12" y="24" class="font-sans sec-title" font-size="10.5">04. OUTPUTS</text>
+    <text x="12" y="38" class="font-sans sec-sub" font-size="8.5">Legal Deliverables</text>
+    <line x1="12" y1="46" x2="136" y2="46" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Deliverable 1: Actionable Leads -->
+    <g transform="translate(8, 60)">
+      <rect width="132" height="155" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="8" y="8" width="116" height="24" rx="3" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+      <text x="66" y="23" class="font-mono" font-size="8" font-weight="800" fill="#dc2626" text-anchor="middle">LEAD ALERTS</text>
+      
+      <text x="8" y="48" class="font-sans" font-size="8.5" font-weight="700" fill="#0f172a">• Priority Flags</text>
+      <text x="8" y="60" class="font-sans" font-size="8" fill="#64748b">Repeat suspects across states</text>
+      
+      <text x="8" y="82" class="font-sans" font-size="8.5" font-weight="700" fill="#0f172a">• Hawala Hubs</text>
+      <text x="8" y="94" class="font-sans" font-size="8" fill="#64748b">Rapid smurfing alerts</text>
+      
+      <text x="8" y="116" class="font-sans" font-size="8.5" font-weight="700" fill="#0f172a">• Syndicate Ring</text>
+      <text x="8" y="128" class="font-sans" font-size="8" fill="#64748b">Convoy proximity matches</text>
+
+      <rect x="8" y="136" width="116" height="14" rx="2" fill="#fef2f2"/>
+      <text x="66" y="146" class="font-mono" font-size="6.5" font-weight="700" fill="#dc2626" text-anchor="middle">REAL-TIME EARLY WARNING</text>
+    </g>
+
+    <!-- Deliverable 2: Certified Dossier -->
+    <g transform="translate(8, 235)">
+      <rect width="132" height="205" rx="5" fill="#ffffff" stroke="#86efac" stroke-width="1.5"/>
+      <rect x="8" y="8" width="116" height="24" rx="3" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+      <text x="66" y="23" class="font-mono" font-size="8" font-weight="800" fill="#059669" text-anchor="middle">COURT DOSSIER</text>
+      
+      <text x="8" y="48" class="font-sans" font-size="8.5" font-weight="700" fill="#065f46">• Sec 65B Brief</text>
+      <text x="8" y="60" class="font-sans" font-size="8" fill="#64748b">Certified Evidence Act format</text>
+      
+      <text x="8" y="82" class="font-sans" font-size="8.5" font-weight="700" fill="#065f46">• SHA-256 Seal</text>
+      <text x="8" y="94" class="font-sans" font-size="8" fill="#64748b">Cryptographic tamper checksum</text>
+      
+      <text x="8" y="116" class="font-sans" font-size="8.5" font-weight="700" fill="#065f46">• Custody Log</text>
+      <text x="8" y="128" class="font-sans" font-size="8" fill="#64748b">Investigator &amp; supervisor trail</text>
+      
+      <text x="8" y="150" class="font-sans" font-size="8.5" font-weight="700" fill="#065f46">• Dual Formats</text>
+      <text x="8" y="162" class="font-mono" font-size="7.5" fill="#059669">PDF &amp; CSV Report Export</text>
+
+      <rect x="8" y="174" width="116" height="22" rx="3" fill="#059669"/>
+      <text x="66" y="188" class="font-mono" font-size="7.5" font-weight="800" fill="#ffffff" text-anchor="middle">JUDICIAL ADMISSIBLE</text>
+    </g>
+  </g>
+
+  <!-- ================= BOTTOM: OPERATIONAL WORKFLOW PIPELINE RIBBON ================= -->
+  <g transform="translate(30, 575)">
+    <!-- Workflow Track Container -->
+    <rect width="1100" height="95" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    
+    <!-- Title Left Tag -->
+    <rect x="12" y="10" width="135" height="18" rx="3" fill="#0f172a"/>
+    <text x="79" y="22" class="font-mono" font-size="8" font-weight="800" fill="#ffffff" text-anchor="middle">OPERATIONAL WORKFLOW</text>
+    <text x="156" y="23" class="font-sans" font-size="9.5" font-weight="600" fill="#475569">End-to-End Five-Stage Forensic Processing &amp; Investigation Lifecycle</text>
+
+    <!-- Step 1: Ingest -->
+    <g transform="translate(14, 34)">
+      <rect width="198" height="48" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <circle cx="20" cy="24" r="11" fill="#2563eb"/>
+      <text x="20" y="28" class="font-mono wf-num">1</text>
+      <text x="38" y="20" class="font-sans wf-step">INGEST FORENSICS</text>
+      <text x="38" y="33" class="font-sans wf-desc">Import CDR, Hawala, ANPR &amp; FIRs</text>
+      <text x="38" y="43" class="font-mono" font-size="7.5" fill="#2563eb">Air-Gapped / Offline Local</text>
+    </g>
+
+    <!-- Step 1 to 2 Arrow -->
+    <path d="M 216 58 L 230 58" class="connector-wire" marker-end="url(#arrowBlue)"/>
+
+    <!-- Step 2: Canonicalize -->
+    <g transform="translate(234, 34)">
+      <rect width="198" height="48" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <circle cx="20" cy="24" r="11" fill="#334155"/>
+      <text x="20" y="28" class="font-mono wf-num">2</text>
+      <text x="38" y="20" class="font-sans wf-step">NORMALIZE &amp; SEAL</text>
+      <text x="38" y="33" class="font-sans wf-desc">E.164 sanitization &amp; SHA-256 hash</text>
+      <text x="38" y="43" class="font-mono" font-size="7.5" fill="#334155">Tamper-Proof Custody Chain</text>
+    </g>
+
+    <!-- Step 2 to 3 Arrow -->
+    <path d="M 436 58 L 450 58" class="connector-wire" marker-end="url(#arrowBlue)"/>
+
+    <!-- Step 3: Resolve -->
+    <g transform="translate(454, 34)">
+      <rect width="198" height="48" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <circle cx="20" cy="24" r="11" fill="#4f46e5"/>
+      <text x="20" y="28" class="font-mono wf-num">3</text>
+      <text x="38" y="20" class="font-sans wf-step">RESOLVE ENTITIES</text>
+      <text x="38" y="33" class="font-sans wf-desc">Multi-FIR identity linkage &amp; scoring</text>
+      <text x="38" y="43" class="font-mono" font-size="7.5" fill="#4f46e5">Probabilistic Cross-Case Match</text>
+    </g>
+
+    <!-- Step 3 to 4 Arrow -->
+    <path d="M 656 58 L 670 58" class="connector-indigo" marker-end="url(#arrowIndigo)"/>
+
+    <!-- Step 4: Traverse -->
+    <g transform="translate(674, 34)">
+      <rect width="198" height="48" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <circle cx="20" cy="24" r="11" fill="#7c3aed"/>
+      <text x="20" y="28" class="font-mono wf-num">4</text>
+      <text x="38" y="20" class="font-sans wf-step">TRAVERSE &amp; CLUSTER</text>
+      <text x="38" y="33" class="font-sans wf-desc">Cytoscape graph &amp; timeline playback</text>
+      <text x="38" y="43" class="font-mono" font-size="7.5" fill="#7c3aed">k-Hop Shortest Path Analysis</text>
+    </g>
+
+    <!-- Step 4 to 5 Arrow -->
+    <path d="M 876 58 L 890 58" class="connector-emerald" marker-end="url(#arrowEmerald)"/>
+
+    <!-- Step 5: Prosecute -->
+    <g transform="translate(894, 34)">
+      <rect width="190" height="48" rx="4" fill="#ffffff" stroke="#86efac" stroke-width="1.2"/>
+      <circle cx="20" cy="24" r="11" fill="#059669"/>
+      <text x="20" y="28" class="font-mono wf-num">5</text>
+      <text x="38" y="20" class="font-sans wf-step" fill="#065f46">EXPORT DOSSIER</text>
+      <text x="38" y="33" class="font-sans wf-desc">Generate Sec 65B certified evidence</text>
+      <text x="38" y="43" class="font-mono" font-size="7.5" font-weight="700" fill="#059669">Court Prosecution Ready</text>
+    </g>
+  </g>
+</svg>

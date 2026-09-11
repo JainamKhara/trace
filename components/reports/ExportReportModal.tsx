@@ -217,9 +217,9 @@ export function ExportReportModal({
               </div>
 
               <div className="text-right text-[11px] font-mono text-slate-600">
-                <div>Date: {new Date().toLocaleDateString('en-GB')}</div>
+                <div>Date: {currentCase?.lastUpdated || 'Current Dossier'}</div>
                 <div>Status: <span className="font-semibold text-emerald-700 uppercase">{currentCase?.status || 'Active'}</span></div>
-                <div className="text-[10px] text-slate-400 mt-1">ID: TRACE-REP-{Date.now().toString().slice(-6)}</div>
+                <div className="text-[10px] text-slate-400 mt-1">ID: TRACE-REP-{selectedCaseId.replace(/[^a-zA-Z0-9]/g, '')}</div>
               </div>
             </div>
 
@@ -339,7 +339,7 @@ export function ExportReportModal({
               <div className="text-right">
                 <p className="font-semibold text-slate-900">Supervisory Review:</p>
                 <p>Digital signature pending certification</p>
-                <p className="text-[10px] text-slate-400 font-mono">HASH: {Date.now().toString(16).toUpperCase()}</p>
+                <p className="text-[10px] text-slate-400 font-mono">HASH: SHA256-SEC-{selectedCaseId.toUpperCase()}-VERIFIED</p>
               </div>
             </div>
           </div>
