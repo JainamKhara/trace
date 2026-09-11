@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "E-PER-001",
+    "name": "Rahul Sharma",
+    "aliases": [
+      "Rahul S.",
+      "R.K. Sharma"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-207",
+      "CASE-117"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "phone": "+91 98712 00451",
+      "nationalIdMasked": "XXXX-XXXX-4912",
+      "address": "Navrangpura, Ahmedabad, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Intermediary Account Controller",
+      "flaggedActivity": "Frequent high-value nocturnal cash deposits",
+      "observationsCount": 28
+    },
+    "notes": "Primary signatory across three commercial accounts linked to Hawala reconciliation ledger CDR_101."
+  },
+  {
+    "id": "E-PER-002",
+    "name": "R. Sharma",
+    "aliases": [
+      "Rahul Sharma?"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-101"
+    ],
+    "confidence": 87,
+    "identifiers": {
+      "phone": "+91 98712 00451",
+      "registration": "GJ-01-AB-1234",
+      "address": "Satellite Road, Ahmedabad, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Consignment Booking Contact",
+      "similarityScore": 0.87
+    },
+    "notes": "Potential entity resolution match with Rahul Sharma. Shared phone number and vehicle GJ-01-AB-1234 detected in freight booking slips."
+  },
+  {
+    "id": "E-PER-003",
+    "name": "Amit Patel",
+    "aliases": [
+      "A.K. Patel",
+      "Mota Bhai"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-101",
+      "CASE-628"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "phone": "+91 98250 88712",
+      "nationalIdMasked": "XXXX-XXXX-7134",
+      "address": "Paldi, Ahmedabad, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Port Consignment Dispatcher",
+      "flaggedActivity": "Repeated contact with clearing agents during dry dock inspections",
+      "observationsCount": 32
+    },
+    "notes": "Direct recipient of calls from Phone X; confirmed beneficiary of secondary escrow disbursement Transaction_207."
+  },
+  {
+    "id": "E-PER-004",
+    "name": "Neha Singh",
+    "aliases": [
+      "N. Singh",
+      "Neha S."
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-207",
+      "CASE-404"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "phone": "+91 99104 33201",
+      "accountNumber": "9901423811",
+      "address": "Andheri East, Mumbai, Maharashtra"
+    },
+    "attributes": {
+      "roleHint": "Fintech Escrow Signatory",
+      "flaggedActivity": "Co-located at Ahmedabad transit node on 10 Aug 2026 at 20:45",
+      "observationsCount": 22
+    },
+    "notes": "Signatory on Account A002 (ICICI Escrow). Received real-time transaction notifications synchronized with Rahul Sharma's communications."
+  },
+  {
+    "id": "E-PER-005",
+    "name": "Vikram Malhotra",
+    "aliases": [
+      "V.K. Malhotra"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-404",
+      "CASE-844"
+    ],
+    "confidence": 86,
+    "identifiers": {
+      "phone": "+91 98110 54321",
+      "nationalIdMasked": "XXXX-XXXX-9902",
+      "address": "Connaught Place, New Delhi"
+    },
+    "attributes": {
+      "roleHint": "Corporate Shell Director",
+      "observationsCount": 17
+    },
+    "notes": "Listed as nominee director for Apex Horizon Freight Logistics and dummy corporations in Nariman Point co-working space."
+  },
+  {
+    "id": "E-PER-006",
+    "name": "Tariq Ahmed",
+    "aliases": [
+      "Tariq Bhai"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-312",
+      "CASE-128"
+    ],
+    "confidence": 89,
+    "identifiers": {
+      "phone": "+91 97230 44901",
+      "registration": "MH-02-CD-5678",
+      "address": "Dongri, Mumbai, Maharashtra"
+    },
+    "attributes": {
+      "roleHint": "Fleet Dispatch Coordinator",
+      "observationsCount": 29
+    },
+    "notes": "Coordinates heavy vehicle movements between Mumbai Docks, Gujarat transit hubs, and coastal landing points."
+  },
+  {
+    "id": "E-PER-007",
+    "name": "Sunita Rao",
+    "aliases": [
+      "S. Rao"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404",
+      "CASE-101",
+      "CASE-106"
+    ],
+    "confidence": 82,
+    "identifiers": {
+      "phone": "+91 94480 12390",
+      "nationalIdMasked": "XXXX-XXXX-3341",
+      "address": "Koramangala, Bengaluru, Karnataka"
+    },
+    "attributes": {
+      "roleHint": "Mule Network Recruiter",
+      "observationsCount": 15
+    },
+    "notes": "Recruits student bank accounts for micro-deposit routing; handles cashouts for stolen electronics fencing network."
+  },
+  {
+    "id": "E-PER-008",
+    "name": "Devendra Verma",
+    "aliases": [
+      "D.K. Verma"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312",
+      "CASE-207",
+      "CASE-101"
+    ],
+    "confidence": 85,
+    "identifiers": {
+      "phone": "+91 98980 67123",
+      "registration": "GJ-01-AB-1234",
+      "address": "Vastrapur, Ahmedabad, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Driver / Courier Operator",
+      "observationsCount": 24
+    },
+    "notes": "Captured on ANPR cameras driving Vehicle V001 across border tolls in synchrony with escort convoys."
+  },
+  {
+    "id": "E-PER-009",
+    "name": "Kabir Khan",
+    "aliases": [
+      "K.K."
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-106",
+    "associatedCases": [
+      "CASE-106",
+      "CASE-207"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "phone": "+91 98200 90123",
+      "address": "Bandra West, Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Cargo Handler Associate",
+      "observationsCount": 21
+    },
+    "notes": "Supervised transfer of serialized crates at Mumbai Port and air cargo pallets from Terminal 2."
+  },
+  {
+    "id": "E-PER-010",
+    "name": "Rajesh Gupta",
+    "aliases": [
+      "R. Gupta"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117",
+      "CASE-101"
+    ],
+    "confidence": 84,
+    "identifiers": {
+      "phone": "+91 98101 23456",
+      "address": "Zaveri Bazaar, Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Bullion Cash Settler",
+      "observationsCount": 18
+    },
+    "notes": "Operates physical cash-and-gold exchanges between Surat Diamond Hub vaults and Mumbai trade lockers."
+  },
+  {
+    "id": "E-PER-011",
+    "name": "Farhan Merchant",
+    "aliases": [
+      "F. Merchant"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-628"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "phone": "+91 98211 44509",
+      "address": "Ballard Estate, Fort, Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Customs Clearing Agent",
+      "observationsCount": 26
+    },
+    "notes": "Procured fraudulent bills of lading from Harish Chawla to bypass container physical examination."
+  },
+  {
+    "id": "E-PER-012",
+    "name": "Suresh Menon",
+    "aliases": [
+      "Menon Chettan"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207"
+    ],
+    "confidence": 89,
+    "identifiers": {
+      "phone": "+91 98470 55192",
+      "address": "Uran, Navi Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Port Crane Supervisor",
+      "observationsCount": 16
+    },
+    "notes": "Shift supervisor responsible for unlogging nighttime container offloads at Gate 4B."
+  },
+  {
+    "id": "E-PER-013",
+    "name": "Balwant Singh",
+    "aliases": [
+      "Sardar Ji",
+      "B. Singh"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312",
+      "CASE-955"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "phone": "+91 98140 77123",
+      "registration": "RJ-14-GA-4509",
+      "address": "Transport Nagar, Jaipur, Rajasthan"
+    },
+    "attributes": {
+      "roleHint": "Interstate Convoy Lead Driver",
+      "observationsCount": 27
+    },
+    "notes": "Driver of escort Bolero Camper V006; maintains encrypted VHF radio communication during interstate transit."
+  },
+  {
+    "id": "E-PER-014",
+    "name": "Jagdish Meena",
+    "aliases": [
+      "Jagga"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312"
+    ],
+    "confidence": 86,
+    "identifiers": {
+      "phone": "+91 94140 33819",
+      "address": "Ratanpur Border, Rajasthan"
+    },
+    "attributes": {
+      "roleHint": "Border Toll Scout",
+      "observationsCount": 19
+    },
+    "notes": "Monitors police patrol vehicles at Shamlaji and Ratanpur border checkposts; signals convoy passage."
+  },
+  {
+    "id": "E-PER-015",
+    "name": "Pradeep Joshi",
+    "aliases": [
+      "Crypto Joshi",
+      "P.K."
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404",
+      "CASE-101"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "phone": "+91 91670 99214",
+      "accountNumber": "7701928410",
+      "address": "Sector 62, Noida, Uttar Pradesh"
+    },
+    "attributes": {
+      "roleHint": "Crypto P2P OTC Broker",
+      "observationsCount": 31
+    },
+    "notes": "Liquidates mule account fiat balances into USDT on unhosted hardware wallets; sends token hashes to Rahul Sharma."
+  },
+  {
+    "id": "E-PER-016",
+    "name": "Ananya Sen",
+    "aliases": [
+      "A. Sen"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "phone": "+91 98300 22187",
+      "address": "Salt Lake Sector V, Kolkata, West Bengal"
+    },
+    "attributes": {
+      "roleHint": "Synthetic Identity KYC Creator",
+      "observationsCount": 23
+    },
+    "notes": "Synthesizes fake Aadhaar/PAN cards using leased biometric datasets to open mule bank accounts remotely."
+  },
+  {
+    "id": "E-PER-017",
+    "name": "Mohit Agarwal",
+    "aliases": [
+      "AlphaEscrow"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404",
+      "CASE-844"
+    ],
+    "confidence": 87,
+    "identifiers": {
+      "phone": "+91 98119 66014",
+      "address": "DLF Phase 2, Gurugram, Haryana"
+    },
+    "attributes": {
+      "roleHint": "Telegram Escrow Channel Admin",
+      "observationsCount": 20
+    },
+    "notes": "Operates high-volume escrow channels routing proceeds from cyber financial frauds into nominee corporate entities."
+  },
+  {
+    "id": "E-PER-018",
+    "name": "Manish Tiwari",
+    "aliases": [
+      "Tiwari Telecom"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519",
+      "CASE-101",
+      "CASE-128"
+    ],
+    "confidence": 95,
+    "identifiers": {
+      "phone": "+91 98201 88401",
+      "address": "Kurla West, Mumbai, Maharashtra"
+    },
+    "attributes": {
+      "roleHint": "Fraudulent SIM & eSIM Issuer",
+      "observationsCount": 35
+    },
+    "notes": "Retail franchise owner who issued over 140 pre-activated SIMs using forged voter IDs, including Phone X."
+  },
+  {
+    "id": "E-PER-019",
+    "name": "Irfan Qureshi",
+    "aliases": [
+      "Irfan Battery"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519",
+      "CASE-207"
+    ],
+    "confidence": 89,
+    "identifiers": {
+      "phone": "+91 98199 44012",
+      "address": "Bhiwandi, Thane, Maharashtra"
+    },
+    "attributes": {
+      "roleHint": "Burner Handset Courier",
+      "observationsCount": 24
+    },
+    "notes": "Distributes bulk feature phones with rotated IMEIs to drivers and port loaders prior to high-risk operations."
+  },
+  {
+    "id": "E-PER-020",
+    "name": "Deepa Nair",
+    "aliases": [
+      "D. Nair"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519"
+    ],
+    "confidence": 84,
+    "identifiers": {
+      "phone": "+91 98450 77129",
+      "address": "Vashi, Navi Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Tower Anomaly Target",
+      "observationsCount": 15
+    },
+    "notes": "Subscriber handset repeatedly co-located at nocturnal tower handovers with burner clusters."
+  },
+  {
+    "id": "E-PER-021",
+    "name": "Harish Chawla",
+    "aliases": [
+      "Masterji",
+      "H.K. Chawla"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-628",
+    "associatedCases": [
+      "CASE-628",
+      "CASE-207",
+      "CASE-731"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "phone": "+91 98220 11984",
+      "address": "Camp, Pune, Maharashtra"
+    },
+    "attributes": {
+      "roleHint": "Master Document Forger",
+      "observationsCount": 38
+    },
+    "notes": "Operates an offset printing press producing counterfeit customs clearance stamps, excise permits, and bills of lading."
+  },
+  {
+    "id": "E-PER-022",
+    "name": "Dinesh Solanki",
+    "aliases": [
+      "D. Solanki"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-628",
+    "associatedCases": [
+      "CASE-628",
+      "CASE-312"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "phone": "+91 98240 66512",
+      "address": "Sabarmati, Ahmedabad, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Inland Container Depot Clerk",
+      "observationsCount": 22
+    },
+    "notes": "Clears doctored consignment manifests at ICD Khodiyar dry port without weighing cargo containers."
+  },
+  {
+    "id": "E-PER-023",
+    "name": "Sameer Kulkarni",
+    "aliases": [
+      "S. Kulkarni"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-628",
+    "associatedCases": [
+      "CASE-628"
+    ],
+    "confidence": 85,
+    "identifiers": {
+      "phone": "+91 98208 33491",
+      "address": "Belapur, Navi Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Inspection Liaison",
+      "observationsCount": 17
+    },
+    "notes": "Provides early alerts regarding customs intelligence vigilance raids across Maharashtra dry ports."
+  },
+  {
+    "id": "E-PER-024",
+    "name": "Dr. Arvind Swaminathan",
+    "aliases": [
+      "The Chemist",
+      "Dr. A.S."
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "phone": "+91 98790 44102",
+      "address": "Ankleshwar GIDC, Bharuch, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Industrial Formulation Chemist",
+      "observationsCount": 29
+    },
+    "notes": "Alters scheduled pharmaceutical batch sheets to show fictitious raw solvent consumption, enabling illicit diversions."
+  },
+  {
+    "id": "E-PER-025",
+    "name": "Mahesh Ghadge",
+    "aliases": [
+      "Ghadge Patil"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731",
+      "CASE-955",
+      "CASE-312"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "phone": "+91 97110 88231",
+      "registration": "GJ-16-Z-9912",
+      "address": "Panoli Industrial Estate, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Chemical Fleet Transporter",
+      "observationsCount": 33
+    },
+    "notes": "Fleet owner providing tankers with concealed sub-compartments; coordinates route diversions along NH-48."
+  },
+  {
+    "id": "E-PER-026",
+    "name": "Nitin Rathi",
+    "aliases": [
+      "N.K. Rathi"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731",
+      "CASE-101"
+    ],
+    "confidence": 87,
+    "identifiers": {
+      "phone": "+91 98255 11902",
+      "address": "Dahej SEZ, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Solvent Recovery Unit Owner",
+      "observationsCount": 21
+    },
+    "notes": "Receives diverted industrial solvent consignments and settles payments via hawala couriers linked to Rahul Sharma."
+  },
+  {
+    "id": "E-PER-027",
+    "name": "Shailesh Kothari",
+    "aliases": [
+      "S.K. Kothari",
+      "Chartered Kothari"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844",
+      "CASE-101",
+      "CASE-404"
+    ],
+    "confidence": 95,
+    "identifiers": {
+      "phone": "+91 98205 77123",
+      "nationalIdMasked": "XXXX-XXXX-8812",
+      "address": "Marine Drive, Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Master Corporate Incorporation Agent",
+      "observationsCount": 42
+    },
+    "notes": "Incorporated 34 shell companies with identical shared registered addresses at Express Towers co-working desks."
+  },
+  {
+    "id": "E-PER-028",
+    "name": "Pooja Deshmukh",
+    "aliases": [
+      "P. Deshmukh"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844"
+    ],
+    "confidence": 86,
+    "identifiers": {
+      "phone": "+91 98202 33419",
+      "address": "Dadar, Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Nominee Virtual Receptionist",
+      "observationsCount": 16
+    },
+    "notes": "Paid monthly retainer to sign corporate courier receipts and accept regulatory notices on behalf of dummy export companies."
+  },
+  {
+    "id": "E-PER-029",
+    "name": "Gautam Singhania",
+    "aliases": [
+      "G. Singhania"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844",
+      "CASE-207"
+    ],
+    "confidence": 83,
+    "identifiers": {
+      "phone": "+91 98112 55901",
+      "address": "Bandra Kurla Complex, Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Commercial Lease Broker",
+      "observationsCount": 19
+    },
+    "notes": "Negotiated bulk unregistered sub-leases used to satisfy bank KYC requirements for trade accounts."
+  },
+  {
+    "id": "E-PER-030",
+    "name": "Bhupendra 'Bhupa' Jadeja",
+    "aliases": [
+      "Bhupa Bapu",
+      "B.K. Jadeja"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955",
+      "CASE-312",
+      "CASE-731"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "phone": "+91 98290 66120",
+      "registration": "GJ-06-XX-8890",
+      "address": "Gandhidham, Kutch, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Highway Fuel Depot Kingpin",
+      "observationsCount": 36
+    },
+    "notes": "Controls illicit decanting points off NH-8A; blends subsidized industrial hydrocarbons into commercial fuel supply."
+  },
+  {
+    "id": "E-PER-031",
+    "name": "Sukhdev Pahuja",
+    "aliases": [
+      "S. Pahuja"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "phone": "+91 98150 44912",
+      "address": "Transport Nagar, Ludhiana, Punjab"
+    },
+    "attributes": {
+      "roleHint": "Highway Fleet Dispatcher",
+      "observationsCount": 25
+    },
+    "notes": "Manages fleet of 18 heavy tankers with GPS spoofing devices installed to mask route deviations."
+  },
+  {
+    "id": "E-PER-032",
+    "name": "Ramsevak Yadav",
+    "aliases": [
+      "Ustad Yadav"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955"
+    ],
+    "confidence": 84,
+    "identifiers": {
+      "phone": "+91 94250 88123",
+      "address": "National Highway 48 Yard, Surat"
+    },
+    "attributes": {
+      "roleHint": "Depot Decanting Foreman",
+      "observationsCount": 18
+    },
+    "notes": "Oversees night-shift siphoning of diesel from tankers into underground storage wells."
+  },
+  {
+    "id": "E-PER-033",
+    "name": "Sunny 'Chashma' Arora",
+    "aliases": [
+      "Sunny Bhai",
+      "Chashma"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-106",
+    "associatedCases": [
+      "CASE-106",
+      "CASE-404",
+      "CASE-101"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "phone": "+91 98118 77654",
+      "address": "Gaffar Market, Karol Bagh, Delhi"
+    },
+    "attributes": {
+      "roleHint": "Electronics Grey Market Fence",
+      "observationsCount": 37
+    },
+    "notes": "Purchases bulk stolen iPhone and Qualcomm processor consignments; redistributes through retail grey channels."
+  },
+  {
+    "id": "E-PER-034",
+    "name": "Rohit Wadhwa",
+    "aliases": [
+      "R. Wadhwa"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-106",
+    "associatedCases": [
+      "CASE-106",
+      "CASE-312"
+    ],
+    "confidence": 89,
+    "identifiers": {
+      "phone": "+91 98711 33290",
+      "address": "Mahipalpur, New Delhi"
+    },
+    "attributes": {
+      "roleHint": "Air Cargo Airside Ground Handler",
+      "observationsCount": 23
+    },
+    "notes": "Ground handler at IGI Airport Terminal 2 Cargo; diverts high-value transit pallets onto delivery vans."
+  },
+  {
+    "id": "E-PER-035",
+    "name": "Hareshbhai Zaveri",
+    "aliases": [
+      "Kaka",
+      "H. Zaveri"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117",
+      "CASE-101"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "phone": "+91 98251 33490",
+      "address": "Mahidharpura, Surat, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Vault Master & Bullion Smelter",
+      "observationsCount": 30
+    },
+    "notes": "Melts unmarked foreign gold bars into domestic jewelry cast shapes; verifies incoming hawala tokens."
+  },
+  {
+    "id": "E-PER-036",
+    "name": "Manoj 'Angadia' Trivedi",
+    "aliases": [
+      "Manoj Courier",
+      "Angadia Manoj"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117",
+      "CASE-312",
+      "CASE-101"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "phone": "+91 98242 88102",
+      "address": "Kalupur, Ahmedabad, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Train Passenger Bullion Courier",
+      "observationsCount": 34
+    },
+    "notes": "Transports gold bars and currency concealed in custom stitched vests aboard Karnavati and Shatabdi express trains."
+  },
+  {
+    "id": "E-PER-037",
+    "name": "Captain Usman Kaskar",
+    "aliases": [
+      "Nakhoda Usman",
+      "U. Kaskar"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-128",
+    "associatedCases": [
+      "CASE-128",
+      "CASE-207",
+      "CASE-519"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "phone": "+91 99240 55812",
+      "address": "Veraval Sea Face, Gir Somnath, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Offshore Dhow Navigator",
+      "observationsCount": 31
+    },
+    "notes": "Master navigator of motorized wooden cargo craft 'Al-Madina'; conducts midnight rendezvous 22 nautical miles offshore."
+  },
+  {
+    "id": "E-PER-038",
+    "name": "Jiva Velji Koli",
+    "aliases": [
+      "Jiva Tandel"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-128",
+    "associatedCases": [
+      "CASE-128"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "phone": "+91 94280 44192",
+      "address": "Jafarabad, Amreli, Gujarat"
+    },
+    "attributes": {
+      "roleHint": "Jetty Launch Operator",
+      "observationsCount": 20
+    },
+    "notes": "Operates high-speed fibreglass skiffs ferrying cargo from anchored offshore crafts to unpatrolled creek landing points."
+  },
+  {
+    "id": "E-PER-039",
+    "name": "Salim 'Chhota' Ghafoor",
+    "aliases": [
+      "Salim Radio"
+    ],
+    "type": "Person",
+    "primaryCase": "CASE-128",
+    "associatedCases": [
+      "CASE-128",
+      "CASE-207"
+    ],
+    "confidence": 86,
+    "identifiers": {
+      "phone": "+91 98207 66103",
+      "address": "Sassoon Docks, Mumbai"
+    },
+    "attributes": {
+      "roleHint": "Coastal Marine VHF Radio Relay",
+      "observationsCount": 22
+    },
+    "notes": "Operates illegal marine VHF base station monitoring coast guard vessel patrol broadcasts."
+  },
+  {
+    "id": "E-PHO-001",
+    "name": "Phone X (+91 98712 00451)",
+    "type": "Phone",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-207",
+      "CASE-519"
+    ],
+    "confidence": 98,
+    "identifiers": {
+      "phone": "+91 98712 00451",
+      "imei": "864201048291034"
+    },
+    "attributes": {
+      "carrier": "Bharti Airtel Gujarat Circle",
+      "activationDate": "14 Jan 2026",
+      "isBurnerProfile": true,
+      "totalCallsObserved": 64
+    },
+    "notes": "Critical cross-case telecommunication bridge connecting Rahul Sharma (CASE-101) and Amit Patel (CASE-207)."
+  },
+  {
+    "id": "E-PHO-002",
+    "name": "Phone (+91 98250 88712)",
+    "type": "Phone",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "phone": "+91 98250 88712",
+      "imei": "359128091823901"
+    },
+    "attributes": {
+      "carrier": "Vodafone Idea Gujarat Circle",
+      "activationDate": "03 Feb 2025"
+    },
+    "notes": "Primary handset registered to Amit Patel. Captured in CDR_101 receiving incoming call from Phone X at 20:10."
+  },
+  {
+    "id": "E-PHO-003",
+    "name": "Phone (+91 99104 33201)",
+    "type": "Phone",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101"
+    ],
+    "confidence": 95,
+    "identifiers": {
+      "phone": "+91 99104 33201",
+      "imei": "861902049182049"
+    },
+    "attributes": {
+      "carrier": "Reliance Jio Maharashtra Circle",
+      "activationDate": "21 Nov 2024"
+    },
+    "notes": "Handset associated with Neha Singh. Received OTP confirmations for transaction ₹75,000."
+  },
+  {
+    "id": "E-PHO-004",
+    "name": "Phone (+91 97230 44901)",
+    "type": "Phone",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-312"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "phone": "+91 97230 44901",
+      "imei": "867201094819201"
+    },
+    "attributes": {
+      "carrier": "Vodafone Idea Maharashtra Circle",
+      "activationDate": "12 Mar 2025"
+    },
+    "notes": "Handset operated by Tariq Ahmed; recorded 42 calls with container gate dispatchers."
+  },
+  {
+    "id": "E-PHO-005",
+    "name": "Phone (+91 98980 67123)",
+    "type": "Phone",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "phone": "+91 98980 67123",
+      "imei": "351092841029481"
+    },
+    "attributes": {
+      "carrier": "Bharti Airtel Gujarat Circle",
+      "activationDate": "18 Aug 2025"
+    },
+    "notes": "Operated by Devendra Verma while driving convoy vehicle V001 across Rajasthan state border."
+  },
+  {
+    "id": "E-PHO-006",
+    "name": "Phone (+91 94480 12390)",
+    "type": "Phone",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "phone": "+91 94480 12390",
+      "imei": "869401928401928"
+    },
+    "attributes": {
+      "carrier": "BSNL Karnataka Circle",
+      "activationDate": "05 Dec 2024"
+    },
+    "notes": "Primary contact phone used by Sunita Rao to manage mule account bank cards."
+  },
+  {
+    "id": "E-PHO-007",
+    "name": "Phone (+91 91670 99214)",
+    "type": "Phone",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404",
+      "CASE-101"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "phone": "+91 91670 99214",
+      "imei": "863301928410293"
+    },
+    "attributes": {
+      "carrier": "Reliance Jio Delhi NCR Circle",
+      "activationDate": "10 Jan 2026"
+    },
+    "notes": "Registered to Pradeep Joshi; handles incoming Telegram bot webhooks for automated P2P crypto orders."
+  },
+  {
+    "id": "E-PHO-008",
+    "name": "Burner SIM Cluster Alpha (+91 98199 44012)",
+    "type": "Phone",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519",
+      "CASE-101"
+    ],
+    "confidence": 97,
+    "identifiers": {
+      "phone": "+91 98199 44012",
+      "imei": "357712094819204"
+    },
+    "attributes": {
+      "carrier": "Reliance Jio Mumbai Circle",
+      "isBurnerProfile": true,
+      "activationDate": "01 Aug 2026"
+    },
+    "notes": "Rotated IMSI device detected triggering automated pings at Bhiwandi cell tower between 02:00 and 04:30."
+  },
+  {
+    "id": "E-PHO-009",
+    "name": "Burner SIM Cluster Beta (+91 98199 44013)",
+    "type": "Phone",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519",
+      "CASE-207"
+    ],
+    "confidence": 95,
+    "identifiers": {
+      "phone": "+91 98199 44013",
+      "imei": "357712094819205"
+    },
+    "attributes": {
+      "carrier": "Reliance Jio Mumbai Circle",
+      "isBurnerProfile": true,
+      "activationDate": "01 Aug 2026"
+    },
+    "notes": "Paired SIM device communicating exclusively with Burner SIM Alpha."
+  },
+  {
+    "id": "E-PHO-010",
+    "name": "Burner SIM Cluster Gamma (+91 98199 44014)",
+    "type": "Phone",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "phone": "+91 98199 44014",
+      "imei": "357712094819206"
+    },
+    "attributes": {
+      "carrier": "Reliance Jio Mumbai Circle",
+      "isBurnerProfile": true,
+      "activationDate": "01 Aug 2026"
+    },
+    "notes": "Third handset in IMSI rotation triad; dormant during daytime hours."
+  },
+  {
+    "id": "E-PHO-011",
+    "name": "Phone (+91 98220 11984)",
+    "type": "Phone",
+    "primaryCase": "CASE-628",
+    "associatedCases": [
+      "CASE-628",
+      "CASE-207"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "phone": "+91 98220 11984",
+      "imei": "860192840192841"
+    },
+    "attributes": {
+      "carrier": "Bharti Airtel Maharashtra Circle",
+      "activationDate": "28 Feb 2025"
+    },
+    "notes": "Used by Harish Chawla to transmit PDF draft manifests via encrypted Signal messenger."
+  },
+  {
+    "id": "E-PHO-012",
+    "name": "Phone (+91 97110 88231)",
+    "type": "Phone",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731",
+      "CASE-955"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "phone": "+91 97110 88231",
+      "imei": "864401928301928"
+    },
+    "attributes": {
+      "carrier": "Vodafone Idea Gujarat Circle",
+      "activationDate": "19 Nov 2025"
+    },
+    "notes": "Operated by Mahesh Ghadge; coordinates tanker arrival times at Ankleshwar diversion points."
+  },
+  {
+    "id": "E-PHO-013",
+    "name": "Phone (+91 98205 77123)",
+    "type": "Phone",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844",
+      "CASE-101"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "phone": "+91 98205 77123",
+      "imei": "359901827364519"
+    },
+    "attributes": {
+      "carrier": "Bharti Airtel Mumbai Circle",
+      "activationDate": "14 Jun 2024"
+    },
+    "notes": "Primary office line for Shailesh Kothari used for coordinating dummy company directorship filings."
+  },
+  {
+    "id": "E-PHO-014",
+    "name": "Phone (+91 98290 66120)",
+    "type": "Phone",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955",
+      "CASE-312"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "phone": "+91 98290 66120",
+      "imei": "867710293847192"
+    },
+    "attributes": {
+      "carrier": "Bharti Airtel Rajasthan Circle",
+      "activationDate": "03 Sep 2025"
+    },
+    "notes": "Operated by Bhupendra Jadeja; maintains direct contact with highway patrol checkpost informants."
+  },
+  {
+    "id": "E-PHO-015",
+    "name": "Phone (+91 98118 77654)",
+    "type": "Phone",
+    "primaryCase": "CASE-106",
+    "associatedCases": [
+      "CASE-106",
+      "CASE-404"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "phone": "+91 98118 77654",
+      "imei": "351192837465192"
+    },
+    "attributes": {
+      "carrier": "Reliance Jio Delhi Circle",
+      "activationDate": "15 Apr 2025"
+    },
+    "notes": "Handset operated by Sunny Arora; linked to bulk WhatsApp catalogue broadcasts for stolen electronics."
+  },
+  {
+    "id": "E-PHO-016",
+    "name": "Phone (+91 98101 23456)",
+    "type": "Phone",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117",
+      "CASE-101"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "phone": "+91 98101 23456",
+      "imei": "862201948271039"
+    },
+    "attributes": {
+      "carrier": "Vodafone Idea Mumbai Circle",
+      "activationDate": "09 Jul 2024"
+    },
+    "notes": "Operated by Rajesh Gupta; coordinates Angadia courier arrivals at Mumbai Central railway station."
+  },
+  {
+    "id": "E-PHO-017",
+    "name": "Phone (+91 98251 33490)",
+    "type": "Phone",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "phone": "+91 98251 33490",
+      "imei": "869910293847102"
+    },
+    "attributes": {
+      "carrier": "Bharti Airtel Gujarat Circle",
+      "activationDate": "11 May 2025"
+    },
+    "notes": "Direct contact line for Hareshbhai Zaveri at Surat Diamond vault."
+  },
+  {
+    "id": "E-PHO-018",
+    "name": "Satellite / Marine Relay (+91 99240 55812)",
+    "type": "Phone",
+    "primaryCase": "CASE-128",
+    "associatedCases": [
+      "CASE-128",
+      "CASE-207"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "phone": "+91 99240 55812",
+      "imei": "300234019283019"
+    },
+    "attributes": {
+      "carrier": "Thuraya Marine Telecom / BSNL Satellite",
+      "activationDate": "19 Feb 2025"
+    },
+    "notes": "Handheld marine satellite telephone operated by Captain Usman Kaskar during offshore transit."
+  },
+  {
+    "id": "E-ORG-001",
+    "name": "Apex Horizon Freight Logistics",
+    "type": "Organization",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-207",
+      "CASE-312"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "address": "Navrangpura Commercial Complex, Ahmedabad"
+    },
+    "attributes": {
+      "registrationNo": "U63090GJ2021PTC10982",
+      "industry": "Freight Forwarding & Warehousing",
+      "activeDirectors": 3
+    },
+    "notes": "Corporate entity holding Account A001. Employs drivers operating Vehicle V001."
+  },
+  {
+    "id": "E-ORG-002",
+    "name": "Kuber Bullion Traders",
+    "type": "Organization",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117",
+      "CASE-101"
+    ],
+    "confidence": 87,
+    "identifiers": {
+      "address": "Zaveri Bazaar, Mumbai"
+    },
+    "attributes": {
+      "registrationNo": "MH-27-0091823",
+      "industry": "Wholesale Bullion"
+    },
+    "notes": "Entity associated with Rajesh Gupta; conduit for precious metals clearing."
+  },
+  {
+    "id": "E-ORG-003",
+    "name": "BlueWave Shipping Agency",
+    "type": "Organization",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-628",
+      "CASE-106"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "address": "Nariman Point, Mumbai"
+    },
+    "attributes": {
+      "registrationNo": "MH-19-0041289",
+      "industry": "Customs Brokerage"
+    },
+    "notes": "Handled clearing paperwork for containers flagged in Case 207."
+  },
+  {
+    "id": "E-ORG-004",
+    "name": "Northern Fleet Lease Ltd",
+    "type": "Organization",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312"
+    ],
+    "confidence": 89,
+    "identifiers": {
+      "address": "Barakhamba Road, New Delhi"
+    },
+    "attributes": {
+      "registrationNo": "DL-55-1029481",
+      "industry": "Fleet Leasing & Transport"
+    },
+    "notes": "Registered owner of convoy escort vehicles V003 and V006."
+  },
+  {
+    "id": "E-ORG-005",
+    "name": "NexaBit Digital Solutions",
+    "type": "Organization",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "address": "Sector 62, Electronic City, Noida"
+    },
+    "attributes": {
+      "registrationNo": "UP-09-8819203",
+      "industry": "Fintech & Blockchain Intermediary"
+    },
+    "notes": "Front software consultancy company utilized by Pradeep Joshi to invoice illicit crypto cashout transactions."
+  },
+  {
+    "id": "E-ORG-006",
+    "name": "SpeedLink Mobile Care",
+    "type": "Organization",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "address": "Kurla Market Road, Mumbai"
+    },
+    "attributes": {
+      "registrationNo": "MH-43-9910283",
+      "industry": "Telecom Retail Franchise"
+    },
+    "notes": "Authorized distributor point that processed fraudulent KYC documents for the burner SIM pool."
+  },
+  {
+    "id": "E-ORG-007",
+    "name": "TransAsia Freight Docs & Advisory",
+    "type": "Organization",
+    "primaryCase": "CASE-628",
+    "associatedCases": [
+      "CASE-628",
+      "CASE-207"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "address": "Shivaji Nagar, Pune, Maharashtra"
+    },
+    "attributes": {
+      "registrationNo": "MH-12-8819201",
+      "industry": "Trade Documentation Consultancy"
+    },
+    "notes": "Consultancy firm fronting Harish Chawla's counterfeit manifest operations."
+  },
+  {
+    "id": "E-ORG-008",
+    "name": "SolvoChem Synthesis Pvt Ltd",
+    "type": "Organization",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "address": "Ankleshwar Industrial Estate, Gujarat"
+    },
+    "attributes": {
+      "registrationNo": "GJ-24-9910284",
+      "industry": "Chemical Manufacturing & Solvents"
+    },
+    "notes": "Chemical manufacturing plant from which scheduled solvents were illegally diverted."
+  },
+  {
+    "id": "E-ORG-009",
+    "name": "Zenith Global Enterprises",
+    "type": "Organization",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844",
+      "CASE-101",
+      "CASE-404"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "address": "Suite 402, Express Towers, Nariman Point, Mumbai"
+    },
+    "attributes": {
+      "registrationNo": "MH-01-3391820",
+      "industry": "Holding & Multi-Trading"
+    },
+    "notes": "Primary corporate shell holding company under Shailesh Kothari; controls accounts used for hawala layer settlement."
+  },
+  {
+    "id": "E-ORG-010",
+    "name": "Tristar Mercantile Ltd",
+    "type": "Organization",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "address": "Suite 402, Express Towers, Nariman Point, Mumbai"
+    },
+    "attributes": {
+      "registrationNo": "MH-01-4491028",
+      "industry": "Import Export Shell"
+    },
+    "notes": "Sub-entity sharing registered address and directors with Zenith Global."
+  },
+  {
+    "id": "E-ORG-011",
+    "name": "Saurashtra Petroleum Carriers Consortium",
+    "type": "Organization",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955",
+      "CASE-312"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "address": "National Highway 8A, Gandhidham, Gujarat"
+    },
+    "attributes": {
+      "registrationNo": "GJ-12-8819204",
+      "industry": "Bulk Petroleum Transport"
+    },
+    "notes": "Tanker transport consortium owned by Bhupendra Jadeja operating un-metered fuel tankers."
+  },
+  {
+    "id": "E-ORG-012",
+    "name": "DigiTech Wholesale Impex",
+    "type": "Organization",
+    "primaryCase": "CASE-106",
+    "associatedCases": [
+      "CASE-106"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "address": "Gaffar Market, Karol Bagh, Delhi"
+    },
+    "attributes": {
+      "registrationNo": "DL-07-7719203",
+      "industry": "Consumer Electronics Wholesale"
+    },
+    "notes": "Retail distribution front operated by Sunny Arora for stolen smartphones and components."
+  },
+  {
+    "id": "E-ORG-013",
+    "name": "Al-Bahar Maritime Transport LLC",
+    "type": "Organization",
+    "primaryCase": "CASE-128",
+    "associatedCases": [
+      "CASE-128",
+      "CASE-207"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "address": "Veraval Port Docks, Gir Somnath, Gujarat"
+    },
+    "attributes": {
+      "registrationNo": "GJ-11-9920194",
+      "industry": "Coastal Shipping & Barge Charter"
+    },
+    "notes": "Vessel management entity operating unregistered dhows and cargo barges in Saurashtra waters."
+  }
+]

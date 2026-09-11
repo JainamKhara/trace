@@ -1,0 +1,230 @@
+[
+  {
+    "id": "E-ACC-001",
+    "name": "Account A001 (HDFC Corp)",
+    "type": "Account",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-207"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "accountNumber": "8841029188",
+      "bank": "HDFC Bank, Navrangpura Branch, Ahmedabad"
+    },
+    "attributes": {
+      "accountType": "Current Commercial",
+      "status": "Active Surveillance",
+      "averageDailyTurnover": "₹18,50,000",
+      "signatory": "Rahul Sharma"
+    },
+    "notes": "Originating account for structured transfers totaling ₹75,000 flagged in Case 101."
+  },
+  {
+    "id": "E-ACC-002",
+    "name": "Account A002 (ICICI Escrow)",
+    "type": "Account",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-101"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "accountNumber": "9901423811",
+      "bank": "ICICI Bank, Fort Branch, Mumbai"
+    },
+    "attributes": {
+      "accountType": "Escrow Intermediary",
+      "status": "Active Surveillance",
+      "averageDailyTurnover": "₹42,00,000",
+      "signatory": "Neha Singh"
+    },
+    "notes": "Escrow holding account receiving funds prior to customs clearance release."
+  },
+  {
+    "id": "E-ACC-003",
+    "name": "Account A003 (Axis Mule Node)",
+    "type": "Account",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404",
+      "CASE-106"
+    ],
+    "confidence": 89,
+    "identifiers": {
+      "accountNumber": "5510294819",
+      "bank": "Axis Bank, Sector 18, Noida"
+    },
+    "attributes": {
+      "accountType": "Savings Mule",
+      "status": "Dormant with Sudden Spikes",
+      "signatory": "Sunita Rao"
+    },
+    "notes": "Recipient of micro-deposits from multiple mobile UPI handles."
+  },
+  {
+    "id": "E-ACC-004",
+    "name": "Account A004 (SBI Corporate Settlement)",
+    "type": "Account",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-404"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "accountNumber": "3349102847",
+      "bank": "State Bank of India, Main Branch, Ahmedabad"
+    },
+    "attributes": {
+      "accountType": "Commercial Clearing",
+      "status": "Monitored",
+      "averageDailyTurnover": "₹9,20,000"
+    },
+    "notes": "Intermediary ledger balancing account connecting corporate front transactions."
+  },
+  {
+    "id": "E-ACC-005",
+    "name": "Account A005 (Kotak P2P Settlement Node)",
+    "type": "Account",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "accountNumber": "7701928410",
+      "bank": "Kotak Mahindra Bank, Nehru Place, New Delhi"
+    },
+    "attributes": {
+      "accountType": "High Velocity Current",
+      "averageDailyTurnover": "₹35,00,000",
+      "signatory": "Pradeep Joshi"
+    },
+    "notes": "Received 320+ incoming IMPS transactions per week averaging ₹12,000 each; funds immediately converted to USDT."
+  },
+  {
+    "id": "E-ACC-006",
+    "name": "Account A006 (Federal Bank Mule Aggregator)",
+    "type": "Account",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404"
+    ],
+    "confidence": 87,
+    "identifiers": {
+      "accountNumber": "1190284710",
+      "bank": "Federal Bank, MG Road, Bengaluru"
+    },
+    "attributes": {
+      "accountType": "Savings Aggregator",
+      "status": "Frozen by Cyber Cell"
+    },
+    "notes": "Aggregated UPI transfers from 40 synthetic student accounts managed by Ananya Sen."
+  },
+  {
+    "id": "E-ACC-007",
+    "name": "Account A007 (PNB ICD Transit Node)",
+    "type": "Account",
+    "primaryCase": "CASE-628",
+    "associatedCases": [
+      "CASE-628",
+      "CASE-207"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "accountNumber": "0049102837",
+      "bank": "Punjab National Bank, Tughlakabad ICD Branch, Delhi"
+    },
+    "attributes": {
+      "accountType": "Freight Customs Escrow",
+      "signatory": "Harish Chawla"
+    },
+    "notes": "Conduit for cash deposits mimicking official terminal handling fees."
+  },
+  {
+    "id": "E-ACC-008",
+    "name": "Account A008 (Bank of Baroda Shell Holding)",
+    "type": "Account",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844",
+      "CASE-101"
+    ],
+    "confidence": 95,
+    "identifiers": {
+      "accountNumber": "2291048291",
+      "bank": "Bank of Baroda, Nariman Point, Mumbai"
+    },
+    "attributes": {
+      "accountType": "Multi-Currency Corporate Current",
+      "averageDailyTurnover": "₹65,00,000",
+      "signatory": "Shailesh Kothari"
+    },
+    "notes": "Main treasury account for Zenith Global Enterprises; processed inward international trade remittances without customs verification."
+  },
+  {
+    "id": "E-ACC-009",
+    "name": "Account A009 (Canara Bank Highway Fuel Clearing)",
+    "type": "Account",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "accountNumber": "4491029384",
+      "bank": "Canara Bank, Gandhidham Branch, Gujarat"
+    },
+    "attributes": {
+      "accountType": "Fuel Merchant Current",
+      "averageDailyTurnover": "₹28,00,000",
+      "signatory": "Bhupendra Jadeja"
+    },
+    "notes": "Accounts for cash proceeds from non-metered diesel sales along NH-8A."
+  },
+  {
+    "id": "E-ACC-010",
+    "name": "Account A010 (IDFC First Retail Settlement)",
+    "type": "Account",
+    "primaryCase": "CASE-106",
+    "associatedCases": [
+      "CASE-106",
+      "CASE-404"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "accountNumber": "1004918273",
+      "bank": "IDFC First Bank, Karol Bagh, New Delhi"
+    },
+    "attributes": {
+      "accountType": "Merchant Current Account",
+      "averageDailyTurnover": "₹14,50,000",
+      "signatory": "Sunny Arora"
+    },
+    "notes": "Retail settlement terminal collecting POS payments for grey market electronics."
+  },
+  {
+    "id": "E-ACC-011",
+    "name": "Account A011 (Surat District Cooperative Bullion)",
+    "type": "Account",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117",
+      "CASE-101"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "accountNumber": "6610293847",
+      "bank": "Surat District Co-operative Bank, Mahidharpura"
+    },
+    "attributes": {
+      "accountType": "Cooperative Bullion Current",
+      "averageDailyTurnover": "₹88,00,000",
+      "signatory": "Hareshbhai Zaveri"
+    },
+    "notes": "Cash-heavy cooperative account with multiple daily RTGS deposits below ₹10 Lakh statutory PAN reporting thresholds."
+  }
+]

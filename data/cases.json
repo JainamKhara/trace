@@ -1,0 +1,220 @@
+[
+  {
+    "id": "CASE-101",
+    "title": "Financial Network & Hawala Intermediary Investigation",
+    "description": "Multi-tier ledger reconciliation of high-velocity structured deposits and escrow conduit accounts operating across Gujarat and Maharashtra financial corridors.",
+    "status": "Active",
+    "priority": "High",
+    "leadInvestigator": "Senior Analyst - Unit 04",
+    "tags": [
+      "Financial",
+      "CDR Analysis",
+      "Multi-hop Ledger",
+      "Cross-District"
+    ],
+    "entityCount": 36,
+    "relationshipCount": 22,
+    "evidenceCount": 4,
+    "lastUpdated": "10 Aug 2026",
+    "dateOpened": "12 Jul 2026"
+  },
+  {
+    "id": "CASE-207",
+    "title": "Cross-Case Contraband & Logistics Syndicate",
+    "description": "Port transit consignment anomalies and container route tracking involving maritime transport intermediary brokers and covert ground transport channels.",
+    "status": "Active",
+    "priority": "High",
+    "leadInvestigator": "Analyst Desk - Unit 09",
+    "tags": [
+      "Logistics",
+      "Maritime Port",
+      "Inter-State Bridge",
+      "Telecom Nodes"
+    ],
+    "entityCount": 34,
+    "relationshipCount": 24,
+    "evidenceCount": 3,
+    "lastUpdated": "11 Aug 2026",
+    "dateOpened": "28 Jun 2026"
+  },
+  {
+    "id": "CASE-312",
+    "title": "Vehicle Association & Border Movement Analysis",
+    "description": "Automatic Number Plate Recognition (ANPR) camera correlations across national toll plazas revealing synchronized convoy movement and fake registration plates.",
+    "status": "Review",
+    "priority": "Medium",
+    "leadInvestigator": "Field Liaison Desk",
+    "tags": [
+      "ANPR Logs",
+      "Toll Matrix",
+      "Fleet Tracking"
+    ],
+    "entityCount": 26,
+    "relationshipCount": 12,
+    "evidenceCount": 4,
+    "lastUpdated": "08 Aug 2026",
+    "dateOpened": "15 May 2026"
+  },
+  {
+    "id": "CASE-404",
+    "title": "Cyber Shell Accounts & Tokenized Escrow Ring",
+    "description": "Distributed mule bank accounts registered with synthetic credentials funneling micro-transactions into centralized corporate escrow accounts.",
+    "status": "Active",
+    "priority": "High",
+    "leadInvestigator": "Cyber Financial Unit",
+    "tags": [
+      "Mule Accounts",
+      "Fintech API",
+      "Fast Transfers"
+    ],
+    "entityCount": 19,
+    "relationshipCount": 10,
+    "evidenceCount": 4,
+    "lastUpdated": "09 Aug 2026",
+    "dateOpened": "02 Aug 2026"
+  },
+  {
+    "id": "CASE-519",
+    "title": "Telecom SIM Swapping & Burner Tower Triangulation",
+    "description": "Repeated IMSI rotation on cellular towers near terminal warehousing facilities with correlated nocturnal data spikes.",
+    "status": "Active",
+    "priority": "Medium",
+    "leadInvestigator": "Signals Analysis Desk",
+    "tags": [
+      "CDR",
+      "Tower Dumps",
+      "IMEI Cluster"
+    ],
+    "entityCount": 11,
+    "relationshipCount": 10,
+    "evidenceCount": 4,
+    "lastUpdated": "07 Aug 2026",
+    "dateOpened": "19 Jul 2026"
+  },
+  {
+    "id": "CASE-628",
+    "title": "Counterfeit Manifest & Customs Brokerage Probe",
+    "description": "Document forgery network generating doctored bills of lading and customs clearance stamps across regional dry-port logistics yards.",
+    "status": "Review",
+    "priority": "Medium",
+    "leadInvestigator": "Document Forensics",
+    "tags": [
+      "Manifest Logs",
+      "Customs",
+      "Dry Port"
+    ],
+    "entityCount": 11,
+    "relationshipCount": 9,
+    "evidenceCount": 3,
+    "lastUpdated": "05 Aug 2026",
+    "dateOpened": "04 Jun 2026"
+  },
+  {
+    "id": "CASE-731",
+    "title": "Industrial Chemicals Transit Diversion",
+    "description": "Discrepancy in scheduled industrial solvent shipments between pharmaceutical production parks and secondary freight terminals.",
+    "status": "Active",
+    "priority": "High",
+    "leadInvestigator": "Hazmat Supply Integrity",
+    "tags": [
+      "Supply Chain",
+      "GPS Geo-fencing",
+      "Transit Diversion"
+    ],
+    "entityCount": 12,
+    "relationshipCount": 10,
+    "evidenceCount": 3,
+    "lastUpdated": "06 Aug 2026",
+    "dateOpened": "11 Jul 2026"
+  },
+  {
+    "id": "CASE-844",
+    "title": "Commercial Real Estate Lease Front Investigation",
+    "description": "Unregistered co-working leases used as nominal registered offices for over thirty export-import intermediary corporations.",
+    "status": "Closed",
+    "priority": "Low",
+    "leadInvestigator": "Corporate Registry Desk",
+    "tags": [
+      "Shell Companies",
+      "Registrar Records",
+      "Lease Audits"
+    ],
+    "entityCount": 11,
+    "relationshipCount": 9,
+    "evidenceCount": 3,
+    "lastUpdated": "01 Aug 2026",
+    "dateOpened": "10 Mar 2026"
+  },
+  {
+    "id": "CASE-955",
+    "title": "Inter-State Fleet Fuel Smuggling Conduit",
+    "description": "Subsidized industrial diesel tankers diverted into non-metered regional bulk storage depots without excise compliance.",
+    "status": "Review",
+    "priority": "Medium",
+    "leadInvestigator": "Tax Evasion Taskforce",
+    "tags": [
+      "Excise",
+      "Tanker Telematics",
+      "Bulk Depots"
+    ],
+    "entityCount": 14,
+    "relationshipCount": 9,
+    "evidenceCount": 3,
+    "lastUpdated": "04 Aug 2026",
+    "dateOpened": "22 Jun 2026"
+  },
+  {
+    "id": "CASE-106",
+    "title": "High-Value Stolen Electronics Smuggling Channel",
+    "description": "Transit pipeline moving serialized semiconductor and smartphone shipments stolen from cargo flights into unmonitored retail clusters.",
+    "status": "Active",
+    "priority": "High",
+    "leadInvestigator": "Cargo Security Wing",
+    "tags": [
+      "Air Cargo",
+      "Serial Numbers",
+      "Fence Network"
+    ],
+    "entityCount": 14,
+    "relationshipCount": 10,
+    "evidenceCount": 2,
+    "lastUpdated": "10 Aug 2026",
+    "dateOpened": "18 Jul 2026"
+  },
+  {
+    "id": "CASE-117",
+    "title": "Precious Metals Courier & Hawala Hand-Offs",
+    "description": "Unrecorded physical transfers of bullion bars by transit couriers synchronized with Hawala token codes and train station lockers.",
+    "status": "Review",
+    "priority": "Medium",
+    "leadInvestigator": "Precious Cargo Desk",
+    "tags": [
+      "Bullion",
+      "Transit Lockers",
+      "Token Verification"
+    ],
+    "entityCount": 10,
+    "relationshipCount": 12,
+    "evidenceCount": 2,
+    "lastUpdated": "03 Aug 2026",
+    "dateOpened": "08 May 2026"
+  },
+  {
+    "id": "CASE-128",
+    "title": "Coastal Docks Unregistered Barge Network",
+    "description": "Satellite imagery and AIS telemetry anomalies of small motorized cargo crafts making unlogged nocturnal transfers offshore.",
+    "status": "Closed",
+    "priority": "Low",
+    "leadInvestigator": "Maritime Patrol Liaison",
+    "tags": [
+      "AIS Telemetry",
+      "Offshore Transfer",
+      "Coastal Logistics"
+    ],
+    "entityCount": 12,
+    "relationshipCount": 10,
+    "evidenceCount": 1,
+    "lastUpdated": "27 Jul 2026",
+    "dateOpened": "01 Apr 2026"
+  }
+]

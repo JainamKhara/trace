@@ -1,0 +1,837 @@
+[
+  {
+    "id": "EV-001",
+    "title": "Cellular Detail Record - Navrangpura Sector 2",
+    "type": "CDR",
+    "caseId": "CASE-101",
+    "sourceFile": "CDR_101.csv",
+    "timestamp": "10 Aug 2026 20:10",
+    "status": "OBSERVED",
+    "confidence": 96,
+    "relatedEntityIds": [
+      "E-PER-001",
+      "E-PHO-001",
+      "E-PER-003",
+      "E-PHO-002"
+    ],
+    "relatedRelationshipId": "REL-011",
+    "summary": "CDR record indicates direct bilateral voice communication (duration 248 seconds) between Phone X (+91 98712 00451) operated by Rahul Sharma and handset (+91 98250 88712) registered to Amit Patel.",
+    "classificationRationale": "Direct forensic extraction from cellular service provider switch logs with verified IMSI/IMEI handshake.",
+    "rawDataPreview": {
+      "caller_msisdn": "+919871200451",
+      "callee_msisdn": "+919825088712",
+      "call_duration_sec": 248,
+      "cell_tower_id": "GJ-AHM-TOWER-441-S2",
+      "call_type": "MOC"
+    }
+  },
+  {
+    "id": "EV-002",
+    "title": "Real-Time Interbank Escrow Fund Transfer",
+    "type": "Financial Record",
+    "caseId": "CASE-101",
+    "sourceFile": "Transaction_207.csv",
+    "timestamp": "10 Aug 2026 20:18",
+    "status": "OBSERVED",
+    "confidence": 99,
+    "relatedEntityIds": [
+      "E-ACC-001",
+      "E-ACC-002",
+      "E-PER-001",
+      "E-PER-004"
+    ],
+    "relatedRelationshipId": "REL-012",
+    "summary": "Instant IMPS electronic fund disbursement of INR 75,000 from HDFC Account 8841029188 to ICICI Escrow Account 9901423811, initiated 8 minutes post telecommunication between Rahul Sharma and Amit Patel.",
+    "classificationRationale": "Direct authenticated banking switch log from Core Banking Solution (CBS) audit trail.",
+    "rawDataPreview": {
+      "transaction_ref": "IMPS2026081099410291",
+      "remitter_account": "8841029188",
+      "beneficiary_account": "9901423811",
+      "amount_inr": 75000,
+      "settlement_status": "SUCCESS"
+    }
+  },
+  {
+    "id": "EV-003",
+    "title": "Aslali Transport Yard Tower Dump Matrix",
+    "type": "Location Record",
+    "caseId": "CASE-101",
+    "sourceFile": "Tower_Dump_Aslali.csv",
+    "timestamp": "10 Aug 2026 20:45",
+    "status": "OBSERVED",
+    "confidence": 95,
+    "relatedEntityIds": [
+      "E-PER-001",
+      "E-PER-003",
+      "E-PER-004",
+      "E-LOC-001"
+    ],
+    "relatedRelationshipId": "REL-007",
+    "summary": "Cellular macro tower dump confirms simultaneous sector attachment of Rahul Sharma, Amit Patel, and Neha Singh within a 350-meter geospatial radius.",
+    "classificationRationale": "Direct cellular tower switch transaction dump provided under lawful interception authorization.",
+    "rawDataPreview": {
+      "tower_id": "GJ-AHM-TOWER-441",
+      "azimuth": 120,
+      "timing_advance": 2,
+      "entities_logged": 3
+    }
+  },
+  {
+    "id": "EV-004",
+    "title": "Apex Horizon Corporate Filing Audit",
+    "type": "Report",
+    "caseId": "CASE-101",
+    "sourceFile": "MCA21_Company_Master.pdf",
+    "timestamp": "10 Mar 2026 09:15",
+    "status": "OBSERVED",
+    "confidence": 94,
+    "relatedEntityIds": [
+      "E-ORG-001",
+      "E-PER-001",
+      "E-PER-005"
+    ],
+    "relatedRelationshipId": "REL-003",
+    "summary": "Ministry of Corporate Affairs registry documents establish corporate control structure and nominal shareholding for freight forwarding intermediary front.",
+    "classificationRationale": "Certified statutory government registry extraction.",
+    "rawDataPreview": {
+      "cin": "U63090GJ2021PTC10982",
+      "directors": [
+        "Rahul Sharma",
+        "Vikram Malhotra"
+      ],
+      "paid_up_capital": 100000
+    }
+  },
+  {
+    "id": "EV-005",
+    "title": "Port Customs Discrepancy First Information Report",
+    "type": "FIR",
+    "caseId": "CASE-207",
+    "sourceFile": "FIR_2026_88.pdf",
+    "timestamp": "28 Jun 2026 14:30",
+    "status": "OBSERVED",
+    "confidence": 97,
+    "relatedEntityIds": [
+      "E-ORG-003",
+      "E-LOC-002",
+      "E-PER-003"
+    ],
+    "summary": "Official police complaint lodged by Port Customs Liaison regarding unmanifested machinery crates cleared through Gate 4B using duplicate brokerage documentation.",
+    "classificationRationale": "Official law enforcement legal record registered under Section 420/468/471 IPC.",
+    "rawDataPreview": {
+      "police_station": "Nhava Sheva Port Police",
+      "fir_number": "88/2026",
+      "ipc_sections": "420, 468, 471, 120B",
+      "complainant": "Superintendent of Customs, Preventive Wing"
+    }
+  },
+  {
+    "id": "EV-006",
+    "title": "Gate 4B Port Container Truck Movement Sighting",
+    "type": "Vehicle Record",
+    "caseId": "CASE-207",
+    "sourceFile": "Gate4B_Entry_Ledger.pdf",
+    "timestamp": "28 Jun 2026 23:45",
+    "status": "OBSERVED",
+    "confidence": 95,
+    "relatedEntityIds": [
+      "E-VEH-005",
+      "E-ORG-003",
+      "E-LOC-002"
+    ],
+    "relatedRelationshipId": "REL-021",
+    "summary": "Optical character recognition camera log records heavy container truck MH-46-TR-8821 exiting terminal gate 4B carrying flagged container MSKU-994102.",
+    "classificationRationale": "Automated port gate telematics and boom barrier access logs.",
+    "rawDataPreview": {
+      "gate": "Gate 4B",
+      "vehicle_reg": "MH-46-TR-8821",
+      "container_no": "MSKU-994102",
+      "clearing_agent": "BlueWave Shipping Agency"
+    }
+  },
+  {
+    "id": "EV-007",
+    "title": "Customs Clearing Broker Brokerage Communication",
+    "type": "CDR",
+    "caseId": "CASE-207",
+    "sourceFile": "CDR_Mumbai_Docks.csv",
+    "timestamp": "10 Aug 2026 19:40",
+    "status": "OBSERVED",
+    "confidence": 94,
+    "relatedEntityIds": [
+      "E-PER-006",
+      "E-PER-003",
+      "E-PHO-004",
+      "E-PHO-002"
+    ],
+    "relatedRelationshipId": "REL-022",
+    "summary": "Direct telephonic coordination between Tariq Ahmed and Amit Patel discussing vehicle dispatch timing for Gujarat transport corridor.",
+    "classificationRationale": "Lawfully intercepted telecommunication call detail records.",
+    "rawDataPreview": {
+      "origin_msisdn": "+919723044901",
+      "dest_msisdn": "+919825088712",
+      "duration_seconds": 112,
+      "cell_id": "MH-MUM-DOCKS-102"
+    }
+  },
+  {
+    "id": "EV-008",
+    "title": "Kherki Daula Fastag Synchronized Toll Passage",
+    "type": "Vehicle Record",
+    "caseId": "CASE-312",
+    "sourceFile": "Fastag_Kherki_Pass.csv",
+    "timestamp": "08 Aug 2026 03:15",
+    "status": "OBSERVED",
+    "confidence": 98,
+    "relatedEntityIds": [
+      "E-VEH-001",
+      "E-VEH-006",
+      "E-LOC-005"
+    ],
+    "relatedRelationshipId": "REL-032",
+    "summary": "Electronic Fastag toll logs show Vehicle V001 (Scorpio GJ-01-AB-1234) and Vehicle V006 (Bolero RJ-14-GA-4509) crossing within 90 seconds in convoy configuration.",
+    "classificationRationale": "Automated Fastag clearing ledger with high-speed ANPR camera captures.",
+    "rawDataPreview": {
+      "toll_plaza": "Kherki Daula NH-48",
+      "lane_1": "Lane 04",
+      "lane_2": "Lane 07",
+      "time_gap_seconds": 90
+    }
+  },
+  {
+    "id": "EV-009",
+    "title": "Shamlaji Border Checkpost Duplicate Plate ANPR Capture",
+    "type": "Vehicle Record",
+    "caseId": "CASE-312",
+    "sourceFile": "Shamlaji_Excise_ANPR.csv",
+    "timestamp": "08 Aug 2026 07:45",
+    "status": "OBSERVED",
+    "confidence": 97,
+    "relatedEntityIds": [
+      "E-VEH-007",
+      "E-VEH-001",
+      "E-LOC-006"
+    ],
+    "relatedRelationshipId": "REL-034",
+    "summary": "High-resolution ANPR camera image at Gujarat-Rajasthan border logs Vehicle V007 displaying registration GJ-01-AB-1234 on a Scorpio N body, while genuine V001 (Classic body) was parked in Ahmedabad.",
+    "classificationRationale": "Automated physical vehicle recognition and chassis mismatch forensic determination.",
+    "rawDataPreview": {
+      "checkpost": "Shamlaji RTO Border",
+      "plate_detected": "GJ-01-AB-1234",
+      "body_type": "Scorpio N",
+      "genuine_registered_type": "Scorpio Classic",
+      "anomaly_flag": "CLONED_REGISTRATION"
+    }
+  },
+  {
+    "id": "EV-010",
+    "title": "Mule Account KYC Synthesis & Synthetic ID Dossier",
+    "type": "Financial Record",
+    "caseId": "CASE-404",
+    "sourceFile": "Axis_Mule_KYC.pdf",
+    "timestamp": "12 Mar 2026 11:00",
+    "status": "OBSERVED",
+    "confidence": 95,
+    "relatedEntityIds": [
+      "E-PER-007",
+      "E-ACC-003"
+    ],
+    "relatedRelationshipId": "REL-037",
+    "summary": "Bank account onboarding audit reveals forged electricity bills and synthetic Aadhaar biometric credentials utilized by Sunita Rao.",
+    "classificationRationale": "Internal banking fraud risk investigation report provided under Section 91 CrPC.",
+    "rawDataPreview": {
+      "account_no": "5510294819",
+      "aadhaar_match": "FAILED_BIOMETRIC_RECONCILIATION",
+      "dormancy_period_months": 8,
+      "burst_deposit_count": 42
+    }
+  },
+  {
+    "id": "EV-011",
+    "title": "P2P Crypto OTC Liquidation Feed",
+    "type": "Financial Record",
+    "caseId": "CASE-404",
+    "sourceFile": "Kotak_P2P_Statement.pdf",
+    "timestamp": "09 Aug 2026 16:45",
+    "status": "OBSERVED",
+    "confidence": 96,
+    "relatedEntityIds": [
+      "E-ACC-005",
+      "E-PER-015",
+      "E-ORG-005"
+    ],
+    "relatedRelationshipId": "REL-042",
+    "summary": "Ledger extract reveals ₹12,40,000 in micro-deposits converted into USDT within 24 minutes via automated P2P trading API.",
+    "classificationRationale": "Core banking statement corroborated by IP address login traces.",
+    "rawDataPreview": {
+      "total_inflow_inr": 1240000,
+      "usdt_settled": 14850,
+      "broker": "NexaBit Digital Solutions",
+      "ip_address": "103.14.88.42"
+    }
+  },
+  {
+    "id": "EV-012",
+    "title": "Bhiwandi Cellular Tower Dump Anomaly Analysis",
+    "type": "CDR",
+    "caseId": "CASE-519",
+    "sourceFile": "Kalamboli_Macro_Dump.csv",
+    "timestamp": "07 Aug 2026 03:10",
+    "status": "OBSERVED",
+    "confidence": 97,
+    "relatedEntityIds": [
+      "E-PHO-008",
+      "E-PHO-009",
+      "E-LOC-008"
+    ],
+    "relatedRelationshipId": "REL-050",
+    "summary": "Automated analysis of 1.4 million CDR records isolates 3 handsets with identical IMSI serial runs communicating only during nocturnal 02:00-04:00 windows.",
+    "classificationRationale": "Telecom statistical anomaly cluster identified via heuristic signal intelligence algorithms.",
+    "rawDataPreview": {
+      "tower_id": "MH-MUM-TOWER-912",
+      "active_imsi_range": "40445091823901-03",
+      "traffic_type": "ENCRYPTED_PACKET_BURST",
+      "time_of_day": "03:10:22 IST"
+    }
+  },
+  {
+    "id": "EV-013",
+    "title": "Fraudulent Point of Sale SIM Distribution Audit",
+    "type": "Report",
+    "caseId": "CASE-519",
+    "sourceFile": "DoT_SIM_Audit_Log.csv",
+    "timestamp": "01 Aug 2026 14:15",
+    "status": "OBSERVED",
+    "confidence": 96,
+    "relatedEntityIds": [
+      "E-ORG-006",
+      "E-PER-018",
+      "E-PHO-008"
+    ],
+    "relatedRelationshipId": "REL-046",
+    "summary": "Department of Telecommunications CAF (Customer Acquisition Form) audit reveals SpeedLink Mobile Care issued 140+ SIMs against 8 single photographic portraits.",
+    "classificationRationale": "Official DoT compliance inspection finding and regulatory penalty notice.",
+    "rawDataPreview": {
+      "pos_code": "POS-MUM-KURLA-88",
+      "fraud_sim_count": 142,
+      "licensee": "SpeedLink Mobile Care"
+    }
+  },
+  {
+    "id": "EV-014",
+    "title": "Forensic Examination of Forged Bill of Lading",
+    "type": "Report",
+    "caseId": "CASE-628",
+    "sourceFile": "Customs_Manifest_Audit.pdf",
+    "timestamp": "05 Aug 2026 09:15",
+    "status": "OBSERVED",
+    "confidence": 98,
+    "relatedEntityIds": [
+      "E-PER-021",
+      "E-ORG-007",
+      "E-LOC-010"
+    ],
+    "relatedRelationshipId": "REL-058",
+    "summary": "Document examination laboratory report confirms rubber stamp impression on Bill of Lading BL-2026-991 was created using counterfeit polymer dye plates produced in Pune.",
+    "classificationRationale": "Forensic document laboratory comparative microscopic analysis report.",
+    "rawDataPreview": {
+      "lab_case_no": "CFSL-DOC-2026-441",
+      "dye_type": "Photopolymer stamp",
+      "genuine_comparison": "MISMATCH_FONT_SERIF"
+    }
+  },
+  {
+    "id": "EV-015",
+    "title": "Hazmat Tanker Telematics Route Deviation",
+    "type": "Vehicle Record",
+    "caseId": "CASE-731",
+    "sourceFile": "GPS_Telematics_Deviation.csv",
+    "timestamp": "06 Aug 2026 05:40",
+    "status": "OBSERVED",
+    "confidence": 95,
+    "relatedEntityIds": [
+      "E-VEH-008",
+      "E-LOC-011",
+      "E-LOC-012"
+    ],
+    "relatedRelationshipId": "REL-067",
+    "summary": "Mandatory GPS telemetry feed for industrial chemical tanker GJ-16-Z-9912 was spoofed at 02:40 IST; physical toll cameras caught vehicle exiting highway towards Dahej storage.",
+    "classificationRationale": "State Pollution Control Board telematics log corroborated by independent toll camera captures.",
+    "rawDataPreview": {
+      "tanker_reg": "GJ-16-Z-9912",
+      "scheduled_destination": "Vadodara Pharma Hub",
+      "actual_destination": "Dahej SEZ Depot",
+      "spoofing_method": "GPS_NMEA_REPLAY"
+    }
+  },
+  {
+    "id": "EV-016",
+    "title": "Express Towers Co-Working Sublease Multi-Entity Audit",
+    "type": "Report",
+    "caseId": "CASE-844",
+    "sourceFile": "Sublease_Agreement_Express.pdf",
+    "timestamp": "01 Aug 2026 11:00",
+    "status": "OBSERVED",
+    "confidence": 99,
+    "relatedEntityIds": [
+      "E-ORG-009",
+      "E-ORG-010",
+      "E-LOC-013",
+      "E-PER-027"
+    ],
+    "relatedRelationshipId": "REL-072",
+    "summary": "Physical site inspection of Nariman Point office reveals single 10x8 desk leased to 34 distinct corporations with zero staff present except virtual receptionist Pooja Deshmukh.",
+    "classificationRationale": "Joint Registrar of Companies and Income Tax inspection panchnama.",
+    "rawDataPreview": {
+      "desk_number": "Suite 402 Hot Desk C",
+      "registered_companies": 34,
+      "authorized_signatory": "Shailesh Kothari"
+    }
+  },
+  {
+    "id": "EV-017",
+    "title": "Kutch Highway Oasis Fuel Decanting Panchnama",
+    "type": "FIR",
+    "caseId": "CASE-955",
+    "sourceFile": "Kutch_Excise_Raid_Memo.pdf",
+    "timestamp": "04 Aug 2026 14:00",
+    "status": "OBSERVED",
+    "confidence": 97,
+    "relatedEntityIds": [
+      "E-PER-030",
+      "E-VEH-004",
+      "E-LOC-014"
+    ],
+    "relatedRelationshipId": "REL-082",
+    "summary": "State excise enforcement raid seizes 24,000 liters of non-metered industrial grade diesel being discharged into subterranean tanks without bills or delivery challans.",
+    "classificationRationale": "Spot seizure memo prepared in presence of independent public witnesses.",
+    "rawDataPreview": {
+      "seizure_volume_liters": 24000,
+      "tanker_id": "GJ-06-XX-8890",
+      "excise_duty_evasion_est": "₹6,80,000"
+    }
+  },
+  {
+    "id": "EV-018",
+    "title": "Air Cargo Pallet Discrepancy & IMEI Seizure Memo",
+    "type": "Report",
+    "caseId": "CASE-106",
+    "sourceFile": "IGI_Cargo_Gate_Pass.csv",
+    "timestamp": "18 Jul 2026 23:45",
+    "status": "OBSERVED",
+    "confidence": 96,
+    "relatedEntityIds": [
+      "E-PER-034",
+      "E-PER-033",
+      "E-LOC-015",
+      "E-VEH-011"
+    ],
+    "relatedRelationshipId": "REL-092",
+    "summary": "Air cargo manifest reconciliation identifies missing pallet of 320 high-end smartphones; IMEI numbers subsequently detected active in Gaffar Market retail shops.",
+    "classificationRationale": "Airline security incident report corroborated by CEIR (Central Equipment Identity Register) alerts.",
+    "rawDataPreview": {
+      "airway_bill": "098-44910283",
+      "stolen_devices_count": 320,
+      "carrier": "DigiTech Delivery Van DL-1L-AA-5512"
+    }
+  },
+  {
+    "id": "EV-019",
+    "title": "Surat Diamond Hub Biometric Vault Access Log",
+    "type": "Location Record",
+    "caseId": "CASE-117",
+    "sourceFile": "Diamond_Hub_Biometric_Logs.csv",
+    "timestamp": "03 Aug 2026 15:30",
+    "status": "OBSERVED",
+    "confidence": 98,
+    "relatedEntityIds": [
+      "E-PER-035",
+      "E-LOC-003",
+      "E-PER-036"
+    ],
+    "relatedRelationshipId": "REL-099",
+    "summary": "Biometric turnstile and vault log records Hareshbhai Zaveri accessing safe deposit locker 881 followed immediately by transfer to Angadia courier Manoj Trivedi.",
+    "classificationRationale": "Direct export of time-stamped digital access control logs from vault management system.",
+    "rawDataPreview": {
+      "locker_no": "VAULT-881",
+      "access_card": "BIO-ZAVERI-001",
+      "weight_transferred_kg": 4.5
+    }
+  },
+  {
+    "id": "EV-020",
+    "title": "Coast Guard Radar Telemetry & Offshore Intercept",
+    "type": "Location Record",
+    "caseId": "CASE-128",
+    "sourceFile": "CoastGuard_Radar_Track_88.csv",
+    "timestamp": "27 Jul 2026 01:20",
+    "status": "OBSERVED",
+    "confidence": 97,
+    "relatedEntityIds": [
+      "E-VEH-012",
+      "E-VEH-013",
+      "E-PER-037",
+      "E-LOC-016"
+    ],
+    "relatedRelationshipId": "REL-109",
+    "summary": "Coastal surveillance radar tracks motorized craft Al-Madina extinguishing navigational lights and holding rendezvous with high-speed launch Sagarika outside territorial waters.",
+    "classificationRationale": "Indian Coast Guard Coastal Surveillance Radar Network track data export.",
+    "rawDataPreview": {
+      "radar_station": "Veraval Coastal Radar 02",
+      "vessel_1": "Al-Madina (IND-GJ-VER-882)",
+      "vessel_2": "Sagarika (IND-MH-RAT-119)",
+      "rendezvous_coords": "20.9012 N, 70.3644 E"
+    }
+  },
+  {
+    "id": "EV-021",
+    "title": "National Toll Plaza ANPR Time-Distance Speed Correlation",
+    "type": "Vehicle Record",
+    "caseId": "CASE-312",
+    "sourceFile": "Toll_Telematics_Log.csv",
+    "timestamp": "08 Aug 2026 05:40",
+    "status": "OBSERVED",
+    "confidence": 97,
+    "relatedEntityIds": [
+      "E-VEH-003",
+      "E-LOC-004",
+      "E-PER-008"
+    ],
+    "summary": "High-speed transit logs confirm Vehicle V003 maintaining escort spacing 200m ahead of freight convoy along Delhi-Jaipur highway.",
+    "classificationRationale": "Automated NHAI toll matrix timing logs.",
+    "rawDataPreview": {
+      "speed_kmh": 84,
+      "time_differential": 18,
+      "highway": "NH-48"
+    }
+  },
+  {
+    "id": "EV-022",
+    "title": "Border Excise Checkpost Seizure Memo",
+    "type": "FIR",
+    "caseId": "CASE-312",
+    "sourceFile": "Excise_Checkpost_FIR_19.pdf",
+    "timestamp": "08 Aug 2026 08:15",
+    "status": "OBSERVED",
+    "confidence": 98,
+    "relatedEntityIds": [
+      "E-VEH-007",
+      "E-PER-014",
+      "E-LOC-006"
+    ],
+    "summary": "Seizure of counterfeit registration plate vehicle at Shamlaji checkpost; driver fled on foot into adjoining hills.",
+    "classificationRationale": "Statutory police seizure report under Section 420/473 IPC.",
+    "rawDataPreview": {
+      "plate_affixed": "GJ-01-AB-1234",
+      "vehicle_color": "White",
+      "engine_no_scratched": true
+    }
+  },
+  {
+    "id": "EV-023",
+    "title": "IPDR (Internet Protocol Detail Record) Geolocation Audit",
+    "type": "Financial Record",
+    "caseId": "CASE-404",
+    "sourceFile": "Cyber_Cell_IPDR_Log.csv",
+    "timestamp": "04 Aug 2026 14:20",
+    "status": "OBSERVED",
+    "confidence": 94,
+    "relatedEntityIds": [
+      "E-PER-016",
+      "E-ACC-006",
+      "E-LOC-007"
+    ],
+    "summary": "VPN-masked login attempts originating from Noida tech park subnet accessing 40 mule accounts in automated round-robin sequence.",
+    "classificationRationale": "Certified IPDR audit logs from Internet Service Provider.",
+    "rawDataPreview": {
+      "subnet": "103.14.88.0/24",
+      "accounts_accessed": 40,
+      "vpn_exit_node": "Netherlands"
+    }
+  },
+  {
+    "id": "EV-024",
+    "title": "Telegram Escrow Channel Forensic Data Extraction",
+    "type": "Report",
+    "caseId": "CASE-404",
+    "sourceFile": "Encrypted_Chat_Dump_Noida.txt",
+    "timestamp": "09 Aug 2026 17:00",
+    "status": "OBSERVED",
+    "confidence": 95,
+    "relatedEntityIds": [
+      "E-PER-017",
+      "E-PER-015",
+      "E-ORG-005"
+    ],
+    "summary": "Decrypted chat transcripts identify admin 'AlphaEscrow' coordinating USDT wallet payouts for stolen bank account credentials.",
+    "classificationRationale": "Physical forensic extraction from seized mobile device using Cellebrite UFED.",
+    "rawDataPreview": {
+      "channel_name": "@AlphaEscrowDesk",
+      "total_volume_usdt": 185000,
+      "admin_handle": "AlphaEscrow"
+    }
+  },
+  {
+    "id": "EV-025",
+    "title": "Triangular Macro Tower Telemetry & IMSI Cluster",
+    "type": "CDR",
+    "caseId": "CASE-519",
+    "sourceFile": "Tower_Triangulation_Report.pdf",
+    "timestamp": "07 Aug 2026 03:45",
+    "status": "OBSERVED",
+    "confidence": 98,
+    "relatedEntityIds": [
+      "E-PHO-009",
+      "E-PHO-010",
+      "E-LOC-009"
+    ],
+    "summary": "Triangulated cell tower sector data pinpoints burner handsets operating from an unlit warehouse bay in Bhiwandi.",
+    "classificationRationale": "Three-tower timing advance triangulation analysis.",
+    "rawDataPreview": {
+      "confidence_radius_m": 65,
+      "warehouse_cluster": "Bhiwandi Shed 14",
+      "handsets": 3
+    }
+  },
+  {
+    "id": "EV-026",
+    "title": "Point of Sale Biometric Scanner Tampering Audit",
+    "type": "Report",
+    "caseId": "CASE-519",
+    "sourceFile": "DoT_Biometric_Tamper_Audit.pdf",
+    "timestamp": "02 Aug 2026 16:00",
+    "status": "OBSERVED",
+    "confidence": 96,
+    "relatedEntityIds": [
+      "E-ORG-006",
+      "E-PER-018",
+      "E-PHO-001"
+    ],
+    "summary": "Forensic analysis of SpeedLink biometric terminal shows silicone fingerprint overlays used to bypass live Aadhaar authentication.",
+    "classificationRationale": "UIDAI security lab hardware tamper audit.",
+    "rawDataPreview": {
+      "scanner_id": "POS-MUM-8812",
+      "fake_liveness_score": 0.98,
+      "cloned_prints": 12
+    }
+  },
+  {
+    "id": "EV-027",
+    "title": "Inland Container Depot Rail Freight Inward Register",
+    "type": "Report",
+    "caseId": "CASE-628",
+    "sourceFile": "ICD_Container_Gate_Log.csv",
+    "timestamp": "04 Aug 2026 11:30",
+    "status": "OBSERVED",
+    "confidence": 95,
+    "relatedEntityIds": [
+      "E-PER-022",
+      "E-LOC-010",
+      "E-ORG-007"
+    ],
+    "summary": "Container train manifest shows cargo recorded as 'Polyester Garments' while physical weight corresponds to prohibited copper wire scrap.",
+    "classificationRationale": "Automated rail in-motion weighbridge logs.",
+    "rawDataPreview": {
+      "wagon_no": "NR-881920",
+      "declared_weight_mt": 12.5,
+      "actual_weight_mt": 27.8
+    }
+  },
+  {
+    "id": "EV-028",
+    "title": "Dry Port Inspection Bypass WhatsApp Transcripts",
+    "type": "CDR",
+    "caseId": "CASE-628",
+    "sourceFile": "CDR_Pune_ICD.csv",
+    "timestamp": "05 Aug 2026 09:15",
+    "status": "OBSERVED",
+    "confidence": 94,
+    "relatedEntityIds": [
+      "E-PER-021",
+      "E-PER-023",
+      "E-PHO-011"
+    ],
+    "summary": "Communications between document draftsman Harish Chawla and inspection clerk Sameer Kulkarni confirming zero-examination green lane routing.",
+    "classificationRationale": "Lawfully intercepted mobile phone communications.",
+    "rawDataPreview": {
+      "caller": "+919822011984",
+      "callee": "+919820833491",
+      "duration_sec": 182
+    }
+  },
+  {
+    "id": "EV-029",
+    "title": "Solvent Chemical Gas Chromatography Assay Analysis",
+    "type": "Report",
+    "caseId": "CASE-731",
+    "sourceFile": "Chemical_Assay_Report_731.pdf",
+    "timestamp": "06 Aug 2026 11:00",
+    "status": "OBSERVED",
+    "confidence": 99,
+    "relatedEntityIds": [
+      "E-PER-024",
+      "E-ORG-008",
+      "E-LOC-011"
+    ],
+    "summary": "Government Analyst test report confirms industrial solvent seized from tanker V008 matches controlled formulation batch SOLVO-9921.",
+    "classificationRationale": "Certified State Chemical Forensic Laboratory assay certificate.",
+    "rawDataPreview": {
+      "solvent_purity": "99.4% Isopropanol Anhydrous",
+      "batch_match": "SOLVO-9921-BATCH-B"
+    }
+  },
+  {
+    "id": "EV-030",
+    "title": "Dahej Port Storage Tank Decanting Gate Pass",
+    "type": "Vehicle Record",
+    "caseId": "CASE-731",
+    "sourceFile": "Dahej_Gate_Pass_44.pdf",
+    "timestamp": "06 Aug 2026 06:15",
+    "status": "OBSERVED",
+    "confidence": 96,
+    "relatedEntityIds": [
+      "E-VEH-008",
+      "E-PER-026",
+      "E-LOC-012"
+    ],
+    "summary": "Terminal gate log records tanker V008 discharging liquid solvent into coastal storage tank T-104 without customs clearance order.",
+    "classificationRationale": "Terminal automated weighing and gate camera verification.",
+    "rawDataPreview": {
+      "tank_id": "T-104",
+      "volume_discharged_liters": 18000,
+      "transporter": "Mahesh Ghadge"
+    }
+  },
+  {
+    "id": "EV-031",
+    "title": "Registrar of Companies Show-Cause Notice & Desk Inspection",
+    "type": "Report",
+    "caseId": "CASE-844",
+    "sourceFile": "ROC_Notice_Zenith_34.pdf",
+    "timestamp": "01 Aug 2026 11:30",
+    "status": "OBSERVED",
+    "confidence": 98,
+    "relatedEntityIds": [
+      "E-ORG-009",
+      "E-PER-027",
+      "E-LOC-013"
+    ],
+    "summary": "Ministry of Corporate Affairs inspection establishes 34 registered corporations have no commercial operations and operate solely as banking layering fronts.",
+    "classificationRationale": "Official RoC inquiry report under Section 206 of Companies Act.",
+    "rawDataPreview": {
+      "shell_companies_count": 34,
+      "common_director": "Shailesh Kothari",
+      "virtual_desk": "Express Towers 402"
+    }
+  },
+  {
+    "id": "EV-032",
+    "title": "Bank of Baroda Foreign Remittance Audit Trail",
+    "type": "Financial Record",
+    "caseId": "CASE-844",
+    "sourceFile": "RTGS_Interbank_Remittance.csv",
+    "timestamp": "01 Aug 2026 16:30",
+    "status": "OBSERVED",
+    "confidence": 99,
+    "relatedEntityIds": [
+      "E-ACC-008",
+      "E-ORG-009",
+      "E-ACC-001"
+    ],
+    "summary": "Inward foreign outward inward clearing shows ₹65 Lakhs routed through shell company account without corresponding customs import bills.",
+    "classificationRationale": "Bank Anti-Money Laundering (AML) transaction alert and STR (Suspicious Transaction Report).",
+    "rawDataPreview": {
+      "str_reference": "STR-2026-MUM-8812",
+      "remitter_entity": "Zenith Global",
+      "amount_inr": 1800000
+    }
+  },
+  {
+    "id": "EV-033",
+    "title": "Fuel Hydrocarbon Chromatography Density Test",
+    "type": "Report",
+    "caseId": "CASE-955",
+    "sourceFile": "Fuel_Density_Test_Kutch.pdf",
+    "timestamp": "04 Aug 2026 15:30",
+    "status": "OBSERVED",
+    "confidence": 97,
+    "relatedEntityIds": [
+      "E-VEH-004",
+      "E-PER-030",
+      "E-LOC-014"
+    ],
+    "summary": "Laboratory test confirms commercial diesel seized from tanker V004 was adulterated with 28% low-density industrial solvent hydrocarbons.",
+    "classificationRationale": "State Forensic Science Laboratory fuel inspection certificate.",
+    "rawDataPreview": {
+      "density_at_15c": "812 kg/m3",
+      "standard_commercial_diesel": "820-845 kg/m3",
+      "adulterant": "Solvent"
+    }
+  },
+  {
+    "id": "EV-034",
+    "title": "National Highway Fastag Sighting of Tanker Fleet",
+    "type": "Vehicle Record",
+    "caseId": "CASE-955",
+    "sourceFile": "Fastag_NH8A_Matrix.csv",
+    "timestamp": "04 Aug 2026 01:15",
+    "status": "OBSERVED",
+    "confidence": 96,
+    "relatedEntityIds": [
+      "E-VEH-004",
+      "E-VEH-010",
+      "E-ORG-011"
+    ],
+    "summary": "Fastag electronic logs prove tankers V004 and V010 regularly operate during 01:00-04:00 hours avoiding daylight transport department checkpoints.",
+    "classificationRationale": "Automated NHAI Fastag transaction records.",
+    "rawDataPreview": {
+      "toll_plaza": "Samakhiyali NH-8A",
+      "time": "01:15:22 IST",
+      "fleet": "Saurashtra Petroleum"
+    }
+  },
+  {
+    "id": "EV-035",
+    "title": "Karol Bagh Grey Market Search & Seizure Panchnama",
+    "type": "FIR",
+    "caseId": "CASE-106",
+    "sourceFile": "Gaffar_Market_Seizure_Memo.pdf",
+    "timestamp": "10 Aug 2026 16:00",
+    "status": "OBSERVED",
+    "confidence": 98,
+    "relatedEntityIds": [
+      "E-ORG-012",
+      "E-PER-033",
+      "E-LOC-016"
+    ],
+    "summary": "Police raid on DigiTech Wholesale Impex recovers 148 stolen smartphones with IMEI barcodes matching air cargo pilferage FIR.",
+    "classificationRationale": "Magistrate-authorized search and seizure panchnama.",
+    "rawDataPreview": {
+      "shop_address": "Shop 12, Gaffar Market",
+      "seized_phones_count": 148,
+      "owner": "Sunny Arora"
+    }
+  },
+  {
+    "id": "EV-036",
+    "title": "Railway Police Transit Parcel Locker Search Warrant",
+    "type": "Location Record",
+    "caseId": "CASE-117",
+    "sourceFile": "Mumbai_Central_Locker_Memo.pdf",
+    "timestamp": "03 Aug 2026 21:00",
+    "status": "OBSERVED",
+    "confidence": 99,
+    "relatedEntityIds": [
+      "E-PER-036",
+      "E-PER-010",
+      "E-LOC-017"
+    ],
+    "summary": "Railway Protection Force search of luggage locker 44 at Mumbai Central recovers 3 gold bars bearing foreign Swiss hallmarks and token codes.",
+    "classificationRationale": "Official search memo and seizure of contraband bullion.",
+    "rawDataPreview": {
+      "station": "Mumbai Central Western Railway",
+      "locker": 44,
+      "bullion_weight_g": 3000
+    }
+  }
+]

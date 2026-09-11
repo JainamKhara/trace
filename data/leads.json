@@ -1,0 +1,243 @@
+[
+  {
+    "id": "LEAD-001",
+    "title": "Potential Cross-Case Bridge: Hawala Syndicate & Port Contraband Logistics",
+    "type": "Potential Cross-Case Bridge",
+    "confidence": 91,
+    "relatedCaseIds": [
+      "CASE-101",
+      "CASE-207"
+    ],
+    "relatedEntityIds": [
+      "E-PER-001",
+      "E-PHO-001",
+      "E-PER-003",
+      "E-ACC-001",
+      "E-ACC-002"
+    ],
+    "signals": [
+      "Shared phone communication via Phone X (+91 98712 00451)",
+      "Synchronized fund transfer (₹75,000) within 8 minutes of phone call",
+      "Cellular tower co-location at Ahmedabad Transit Hub within 32-minute window"
+    ],
+    "rationale": "High-confidence structural bridge discovered between financial intermediary ledger in CASE-101 and port contraband logistics syndicate in CASE-207. Requires investigator corroboration before merging case dossiers.",
+    "reviewStatus": "Pending",
+    "reviewNotes": "Requires field verification of physical meeting at Aslali freight yard."
+  },
+  {
+    "id": "LEAD-002",
+    "title": "Entity Resolution Review: Rahul Sharma vs R. Sharma",
+    "type": "Entity Resolution Review",
+    "confidence": 87,
+    "relatedCaseIds": [
+      "CASE-101",
+      "CASE-207"
+    ],
+    "relatedEntityIds": [
+      "E-PER-001",
+      "E-PER-002",
+      "E-VEH-001",
+      "E-PHO-001"
+    ],
+    "signals": [
+      "Exact phonetic and surname concordance",
+      "Identical primary phone identifier (+91 98712 00451) listed on transport waybills",
+      "Shared vehicle registration (Mahindra Scorpio GJ-01-AB-1234) used in both cases"
+    ],
+    "rationale": "Record linkage algorithm indicates high probability that 'R. Sharma' recorded in CASE-207 cargo bookings is identical to 'Rahul Sharma' under investigation in CASE-101.",
+    "reviewStatus": "Pending",
+    "reviewNotes": "Do not merge entity records without investigator manual sign-off."
+  },
+  {
+    "id": "LEAD-003",
+    "title": "Unusual Relationship Cluster: Aslali Logistics Co-Presence",
+    "type": "Unusual Relationship Cluster",
+    "confidence": 84,
+    "relatedCaseIds": [
+      "CASE-101",
+      "CASE-207",
+      "CASE-312"
+    ],
+    "relatedEntityIds": [
+      "E-PER-001",
+      "E-PER-003",
+      "E-PER-004",
+      "E-PER-006",
+      "E-PER-008",
+      "E-LOC-001"
+    ],
+    "signals": [
+      "Simultaneous presence of five flagged entities within 500m radius polygon",
+      "Synchronized cellular tower handovers between 20:00 and 21:15",
+      "Concurrently monitored vehicles V001 and V002 converging on freight yard"
+    ],
+    "rationale": "Co-presence density anomaly detected during nocturnal window. Multiple otherwise disconnected actors converged on a single transport facility.",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "LEAD-004",
+    "title": "Temporal Coincidence: Surat Vault & Hawala Ledger Remittance",
+    "type": "Temporal Coincidence",
+    "confidence": 78,
+    "relatedCaseIds": [
+      "CASE-117",
+      "CASE-101"
+    ],
+    "relatedEntityIds": [
+      "E-PER-010",
+      "E-LOC-003",
+      "E-ACC-001",
+      "E-PER-001"
+    ],
+    "signals": [
+      "Biometric locker access at Surat Diamond Hub followed within 5 mins by call to Rahul Sharma",
+      "Subsequent ₹1,80,000 cash deposit recorded under matching token code 'SURAT-KUBER-881'"
+    ],
+    "rationale": "Tight temporal alignment between safe vault access and downstream bank deposits suggests physical precious cargo liquidation.",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "LEAD-005",
+    "title": "Potential Cross-Case Bridge: Interstate Convoy & Stolen Cargo Fencing",
+    "type": "Potential Cross-Case Bridge",
+    "confidence": 89,
+    "relatedCaseIds": [
+      "CASE-312",
+      "CASE-106"
+    ],
+    "relatedEntityIds": [
+      "E-PER-008",
+      "E-PER-033",
+      "E-VEH-001",
+      "E-VEH-011",
+      "E-LOC-004"
+    ],
+    "signals": [
+      "Escort convoy vehicle V001 observed parked at Delhi Anand Vihar alongside stolen cargo van V011",
+      "Cellular contact established between Devendra Verma and electronics fence Sunny Arora within 45 minutes of convoy arrival",
+      "Fastag toll timing corroborates non-stop transit from Gujarat corridor into East Delhi terminal"
+    ],
+    "rationale": "Movement telematics connect the interstate vehicle convoy network directly to air cargo fencing distribution channels in Karol Bagh.",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "LEAD-006",
+    "title": "Entity Resolution Review: Nominee Director Vikram Malhotra Across Shell Portfolios",
+    "type": "Entity Resolution Review",
+    "confidence": 93,
+    "relatedCaseIds": [
+      "CASE-101",
+      "CASE-844",
+      "CASE-404"
+    ],
+    "relatedEntityIds": [
+      "E-PER-005",
+      "E-ORG-001",
+      "E-ORG-009",
+      "E-LOC-013"
+    ],
+    "signals": [
+      "Identical DIN (Director Identification Number) registered across Gujarat freight firm and Nariman Point shell corporations",
+      "Signatory authority on multiple high-turnover current accounts routing funds between Ahmedabad and Mumbai",
+      "Shared virtual office hot desk address in Express Towers"
+    ],
+    "rationale": "Automated MCA21 entity resolution links Vikram Malhotra as the central corporate layering architect spanning three active cases.",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "LEAD-007",
+    "title": "Unusual Relationship Cluster: Industrial Tanker NH-48 Tandem Movement",
+    "type": "Unusual Relationship Cluster",
+    "confidence": 86,
+    "relatedCaseIds": [
+      "CASE-731",
+      "CASE-955"
+    ],
+    "relatedEntityIds": [
+      "E-VEH-008",
+      "E-VEH-004",
+      "E-PER-025",
+      "E-PER-030",
+      "E-LOC-011"
+    ],
+    "signals": [
+      "Solvent chemical tanker V008 and fuel tanker V004 passed Surat toll gate within 180 seconds",
+      "Simultaneous GPS transponder shutdowns logged across both vehicles between Bharuch and Valsad",
+      "Common delivery destination recorded at unregistered bulk fuel oasis depot in Gandhidham"
+    ],
+    "rationale": "Synchronized dual-tanker movement suggests illegal blending of diverted industrial pharmaceutical solvents into commercial highway diesel stocks.",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "LEAD-008",
+    "title": "Potential Cross-Case Bridge: Coastal Dhow Drops & Burner SIM Triangulation",
+    "type": "Potential Cross-Case Bridge",
+    "confidence": 92,
+    "relatedCaseIds": [
+      "CASE-128",
+      "CASE-519",
+      "CASE-207"
+    ],
+    "relatedEntityIds": [
+      "E-PER-037",
+      "E-PHO-018",
+      "E-PHO-008",
+      "E-LOC-016",
+      "E-LOC-008"
+    ],
+    "signals": [
+      "Marine satellite telephone calls synchronized with nocturnal data spikes on Kalamboli tower",
+      "Burner SIM cluster Alpha active during coastal craft rendezvous hours",
+      "Port transport dispatch coordinator Tariq Ahmed co-located near Sassoon docks prior to vessel departure"
+    ],
+    "rationale": "Telecommunication telemetry ties off-shore maritime contraband landing directly to port logistics dispatch networks.",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "LEAD-009",
+    "title": "Entity Resolution Review: Plate Cloning Anomaly on Vehicle V001",
+    "type": "Entity Resolution Review",
+    "confidence": 96,
+    "relatedCaseIds": [
+      "CASE-312",
+      "CASE-101"
+    ],
+    "relatedEntityIds": [
+      "E-VEH-001",
+      "E-VEH-007",
+      "E-LOC-005",
+      "E-LOC-006"
+    ],
+    "signals": [
+      "Simultaneous ANPR detection of registration GJ-01-AB-1234 at two toll plazas separated by 380 kilometers",
+      "Visual classification reveals distinct chassis variants (Scorpio Classic vs Scorpio N)",
+      "Cloned plate utilized to evade excise checkpost alerts along Rajasthan border"
+    ],
+    "rationale": "Definitive evidence of fraudulent registration duplication deployed to mask illicit cross-border convoy movements.",
+    "reviewStatus": "Pending"
+  },
+  {
+    "id": "LEAD-010",
+    "title": "Temporal Coincidence: Crypto P2P Cashouts Following Cyber Mule Spikes",
+    "type": "Temporal Coincidence",
+    "confidence": 88,
+    "relatedCaseIds": [
+      "CASE-404",
+      "CASE-106"
+    ],
+    "relatedEntityIds": [
+      "E-ACC-003",
+      "E-ACC-005",
+      "E-PER-015",
+      "E-PER-033",
+      "E-ORG-005"
+    ],
+    "signals": [
+      "Micro-deposits aggregating into Axis mule account followed within 24 minutes by high-volume USDT purchase orders",
+      "Telegram bot escrow confirmations matched against IMEI activations from Karol Bagh retail electronics stores",
+      "Funds immediately swept into unhosted private cryptocurrency hardware wallets"
+    ],
+    "rationale": "Direct correlation between cyber mule fund aggregation and immediate OTC crypto liquidation indicates professional money laundering integration.",
+    "reviewStatus": "Pending"
+  }
+]

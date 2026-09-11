@@ -1,0 +1,306 @@
+[
+  {
+    "id": "E-VEH-001",
+    "name": "Vehicle V001 (GJ-01-AB-1234)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-207",
+      "CASE-312"
+    ],
+    "confidence": 95,
+    "identifiers": {
+      "registration": "GJ-01-AB-1234"
+    },
+    "attributes": {
+      "makeModel": "Mahindra Scorpio Classic (White)",
+      "chassisNo": "MA1TA2BK3P94012",
+      "fastagId": "FA-GJ01-884102",
+      "registeredOwner": "Apex Horizon Freight Logistics"
+    },
+    "notes": "Observed in CCTV and ANPR logs parked outside Navrangpura commercial center during transfer hours."
+  },
+  {
+    "id": "E-VEH-002",
+    "name": "Vehicle V002 (MH-02-CD-5678)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-312"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "registration": "MH-02-CD-5678"
+    },
+    "attributes": {
+      "makeModel": "Toyota Fortuner (Black)",
+      "chassisNo": "MB1TF2CL4R81923",
+      "fastagId": "FA-MH02-719301",
+      "registeredOwner": "Tariq Ahmed"
+    },
+    "notes": "Crossed Vashi Toll Plaza towards Gujarat corridor 45 minutes prior to reported cash courier meeting."
+  },
+  {
+    "id": "E-VEH-003",
+    "name": "Vehicle V003 (DL-3C-9012)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "registration": "DL-3C-9012"
+    },
+    "attributes": {
+      "makeModel": "Maruti Swift Dzire (Silver)",
+      "chassisNo": "MA3FD2DL1K30192",
+      "registeredOwner": "Northern Fleet Lease Ltd"
+    },
+    "notes": "Auxiliary escort vehicle linked to interstate delivery routes."
+  },
+  {
+    "id": "E-VEH-004",
+    "name": "Vehicle V004 (GJ-06-XX-8890)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955",
+      "CASE-731"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "registration": "GJ-06-XX-8890"
+    },
+    "attributes": {
+      "makeModel": "Tata Heavy Tanker 2818",
+      "chassisNo": "TAT339102481",
+      "capacity": "24,000 Liters",
+      "registeredOwner": "Saurashtra Petroleum Carriers"
+    },
+    "notes": "Industrial tanker observed deviating from permitted pharmaceutical delivery corridors."
+  },
+  {
+    "id": "E-VEH-005",
+    "name": "Vehicle V005 (MH-46-TR-8821)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-628"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "registration": "MH-46-TR-8821"
+    },
+    "attributes": {
+      "makeModel": "BharatBenz 4028T Container Truck",
+      "chassisNo": "BBZ4028T991823",
+      "registeredOwner": "BlueWave Shipping Agency"
+    },
+    "notes": "Heavy transport carrier that removed unmanifested shipping container MSKU-994102 from Mumbai Port Gate 4B."
+  },
+  {
+    "id": "E-VEH-006",
+    "name": "Vehicle V006 (RJ-14-GA-4509)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "registration": "RJ-14-GA-4509"
+    },
+    "attributes": {
+      "makeModel": "Mahindra Bolero Camper 4WD (Brown)",
+      "chassisNo": "MA1BC4RJ881920",
+      "fastagId": "FA-RJ14-339102",
+      "registeredOwner": "Balwant Singh"
+    },
+    "notes": "Scout vehicle equipped with aftermarket radio equipment; recorded leading convoys across Rajasthan toll plazas."
+  },
+  {
+    "id": "E-VEH-007",
+    "name": "Vehicle V007 (GJ-01-AB-1234 Clone)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312",
+      "CASE-101"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "registration": "GJ-01-AB-1234"
+    },
+    "attributes": {
+      "makeModel": "Mahindra Scorpio N (White - Counterfeit Plate)",
+      "chassisNo": "MA1SC8N9920194",
+      "registeredOwner": "Unknown / False Registry"
+    },
+    "notes": "Simultaneous toll ping detected at Shamlaji toll plaza while genuine V001 was stationary in Ahmedabad."
+  },
+  {
+    "id": "E-VEH-008",
+    "name": "Vehicle V008 (GJ-16-Z-9912)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731",
+      "CASE-955"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "registration": "GJ-16-Z-9912"
+    },
+    "attributes": {
+      "makeModel": "Ashok Leyland 2518 Chemical Tanker",
+      "chassisNo": "AL2518GJ99102",
+      "capacity": "18,000 Liters Stainless Steel",
+      "registeredOwner": "Mahesh Ghadge"
+    },
+    "notes": "Fitted with GPS kill-switch; diverted 6 scheduled batches of industrial chemical solvents into clandestine depots."
+  },
+  {
+    "id": "E-VEH-009",
+    "name": "Vehicle V009 (GJ-16-AB-3341)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "registration": "GJ-16-AB-3341"
+    },
+    "attributes": {
+      "makeModel": "Tata Xenon Pickup (White)",
+      "chassisNo": "TATXEN991823",
+      "registeredOwner": "SolvoChem Synthesis Pvt Ltd"
+    },
+    "notes": "Escort and sample courier vehicle connecting Ankleshwar lab to Dahej port storage tanks."
+  },
+  {
+    "id": "E-VEH-010",
+    "name": "Vehicle V010 (GJ-12-AZ-4411)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955",
+      "CASE-312"
+    ],
+    "confidence": 89,
+    "identifiers": {
+      "registration": "GJ-12-AZ-4411"
+    },
+    "attributes": {
+      "makeModel": "Eicher Pro 6028 Fuel Tanker",
+      "chassisNo": "EIC6028GJ44119",
+      "capacity": "20,000 Liters",
+      "registeredOwner": "Saurashtra Petroleum Carriers"
+    },
+    "notes": "Offloading vehicle used at Kutch highway oasis to siphon fuel into unmonitored retail bowsers."
+  },
+  {
+    "id": "E-VEH-011",
+    "name": "Vehicle V011 (DL-1L-AA-5512)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-106",
+    "associatedCases": [
+      "CASE-106",
+      "CASE-312"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "registration": "DL-1L-AA-5512"
+    },
+    "attributes": {
+      "makeModel": "Eicher Pro 2049 Light Cargo Truck",
+      "chassisNo": "EIC2049DL55120",
+      "registeredOwner": "DigiTech Wholesale Impex"
+    },
+    "notes": "Captured on CCTV exiting IGI Airport Cargo terminal service lane before making deliveries to Gaffar Market."
+  },
+  {
+    "id": "E-VEH-012",
+    "name": "Vehicle V012 (IND-GJ-VER-882)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-128",
+    "associatedCases": [
+      "CASE-128",
+      "CASE-207"
+    ],
+    "confidence": 97,
+    "identifiers": {
+      "registration": "IND-GJ-VER-882"
+    },
+    "attributes": {
+      "makeModel": "Wooden Motorized Dhow 'Al-Madina' (65ft)",
+      "engineNo": "YANMAR-6HY-88192",
+      "registeredPort": "Veraval Fisheries Dock",
+      "registeredOwner": "Al-Bahar Maritime Transport LLC"
+    },
+    "notes": "Offshore cargo craft that turned off AIS transponders on three consecutive new-moon nights."
+  },
+  {
+    "id": "E-VEH-013",
+    "name": "Vehicle V013 (IND-MH-RAT-119)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-128",
+    "associatedCases": [
+      "CASE-128"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "registration": "IND-MH-RAT-119"
+    },
+    "attributes": {
+      "makeModel": "Fast Coastal Trawler 'Sagarika' (Twin Inboard)",
+      "engineNo": "CUMMINS-QSB-4410",
+      "registeredPort": "Ratnagiri Jetty"
+    },
+    "notes": "High-speed coastal shuttle intercepted transferring crates from Al-Madina into Ratnagiri creeks."
+  },
+  {
+    "id": "E-VEH-014",
+    "name": "Vehicle V014 (MH-01-EE-7788)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844",
+      "CASE-101"
+    ],
+    "confidence": 89,
+    "identifiers": {
+      "registration": "MH-01-EE-7788"
+    },
+    "attributes": {
+      "makeModel": "Mercedes-Benz E-Class (Obsidian Black)",
+      "chassisNo": "WDD2130881920",
+      "registeredOwner": "Zenith Global Enterprises"
+    },
+    "notes": "Executive vehicle used by Shailesh Kothari for attending bank manager meetings across South Mumbai."
+  },
+  {
+    "id": "E-VEH-015",
+    "name": "Vehicle V015 (GJ-05-MM-2201)",
+    "type": "Vehicle",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117",
+      "CASE-101"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "registration": "GJ-05-MM-2201"
+    },
+    "attributes": {
+      "makeModel": "Toyota Innova Crysta (Armored Modification)",
+      "chassisNo": "MB1TJ6CC881920",
+      "registeredOwner": "Kuber Bullion Traders"
+    },
+    "notes": "Secured vehicle carrying gold bars between Surat Mahidharpura lockers and railway transit stations."
+  }
+]

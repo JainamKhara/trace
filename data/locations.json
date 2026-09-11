@@ -1,0 +1,313 @@
+[
+  {
+    "id": "E-LOC-001",
+    "name": "Ahmedabad Transit Hub",
+    "type": "Location",
+    "primaryCase": "CASE-101",
+    "associatedCases": [
+      "CASE-101",
+      "CASE-207",
+      "CASE-312"
+    ],
+    "confidence": 98,
+    "identifiers": {
+      "coordinates": "23.0225° N, 72.5714° E",
+      "address": "Transport Nagar, Aslali, Ahmedabad, Gujarat"
+    },
+    "attributes": {
+      "siteType": "Logistics & Freight Yard",
+      "cctvCoverage": "High Density",
+      "cellularTowers": "GJ-AHM-TOWER-441, GJ-AHM-TOWER-442"
+    },
+    "notes": "Central nexus where cellular towers logged co-location of Rahul Sharma, Amit Patel, and Neha Singh on 10 Aug 2026."
+  },
+  {
+    "id": "E-LOC-002",
+    "name": "Mumbai Port Terminal 3",
+    "type": "Location",
+    "primaryCase": "CASE-207",
+    "associatedCases": [
+      "CASE-207",
+      "CASE-106",
+      "CASE-128"
+    ],
+    "confidence": 94,
+    "identifiers": {
+      "coordinates": "18.9482° N, 72.8441° E",
+      "address": "JNPT Freight Corridor, Navi Mumbai, Maharashtra"
+    },
+    "attributes": {
+      "siteType": "Maritime Container Depot",
+      "accessGate": "Gate 4B",
+      "cameraCoverage": "Port Authority CCTV Grid 9"
+    },
+    "notes": "Consignment inspection point where suspicious bills of lading originated."
+  },
+  {
+    "id": "E-LOC-003",
+    "name": "Surat Diamond Hub",
+    "type": "Location",
+    "primaryCase": "CASE-117",
+    "associatedCases": [
+      "CASE-117",
+      "CASE-101"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "coordinates": "21.1702° N, 72.8311° E",
+      "address": "Mahidharpura, Surat, Gujarat"
+    },
+    "attributes": {
+      "siteType": "Precious Trade Enclave",
+      "courierFootfall": "Intense"
+    },
+    "notes": "Physical locker exchanges recorded in surveillance footage."
+  },
+  {
+    "id": "E-LOC-004",
+    "name": "Delhi Anand Vihar Logistics",
+    "type": "Location",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312",
+      "CASE-106"
+    ],
+    "confidence": 88,
+    "identifiers": {
+      "coordinates": "28.6508° N, 77.3153° E",
+      "address": "Anand Vihar Freight Terminal, East Delhi"
+    },
+    "attributes": {
+      "siteType": "Interstate Bus & Freight Hub"
+    },
+    "notes": "Terminal point for north-bound escort vehicles."
+  },
+  {
+    "id": "E-LOC-005",
+    "name": "Kherki Daula Toll Plaza",
+    "type": "Location",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312"
+    ],
+    "confidence": 95,
+    "identifiers": {
+      "coordinates": "28.3972° N, 76.9744° E",
+      "address": "NH-48, Gurugram, Haryana"
+    },
+    "attributes": {
+      "siteType": "National Highway Fastag Toll Plaza",
+      "anprCameras": "Lane 04, Lane 07 High-Speed ANPR"
+    },
+    "notes": "Recorded convoy V001 and V006 crossing within 90 seconds of each other."
+  },
+  {
+    "id": "E-LOC-006",
+    "name": "Shamlaji Border Checkpost",
+    "type": "Location",
+    "primaryCase": "CASE-312",
+    "associatedCases": [
+      "CASE-312",
+      "CASE-955"
+    ],
+    "confidence": 93,
+    "identifiers": {
+      "coordinates": "23.6841° N, 73.3812° E",
+      "address": "Gujarat-Rajasthan Border, Aravalli District"
+    },
+    "attributes": {
+      "siteType": "Interstate Commercial Vehicle Checkpost",
+      "surveillance": "State Excise Camera Array"
+    },
+    "notes": "Detected duplicate plate for Vehicle V007 moving north while genuine V001 was logged in Ahmedabad."
+  },
+  {
+    "id": "E-LOC-007",
+    "name": "Cyber City Tech Park",
+    "type": "Location",
+    "primaryCase": "CASE-404",
+    "associatedCases": [
+      "CASE-404"
+    ],
+    "confidence": 90,
+    "identifiers": {
+      "coordinates": "28.6279° N, 77.3688° E",
+      "address": "Sector 62, Electronic City, Noida"
+    },
+    "attributes": {
+      "siteType": "Commercial IT Office Park",
+      "ipSubnets": "103.14.88.0/24"
+    },
+    "notes": "Physical base of NexaBit Digital Solutions and Telegram escrow transaction relay servers."
+  },
+  {
+    "id": "E-LOC-008",
+    "name": "Kalamboli Steel Yard Cell Tower",
+    "type": "Location",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519",
+      "CASE-207"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "coordinates": "19.0330° N, 73.1022° E",
+      "address": "Kalamboli Logistics Node, Navi Mumbai"
+    },
+    "attributes": {
+      "siteType": "Telecom Macro Cellular Tower",
+      "towerId": "MH-MUM-TOWER-912"
+    },
+    "notes": "Logged anomalous midnight burst transmissions matching burner handsets E-PHO-008 and E-PHO-009."
+  },
+  {
+    "id": "E-LOC-009",
+    "name": "Bhiwandi Warehousing Cluster",
+    "type": "Location",
+    "primaryCase": "CASE-519",
+    "associatedCases": [
+      "CASE-519",
+      "CASE-106"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "coordinates": "19.2967° N, 73.0631° E",
+      "address": "Mankoli Naka, Bhiwandi, Thane, Maharashtra"
+    },
+    "attributes": {
+      "siteType": "Logistics Warehousing Mega-Cluster"
+    },
+    "notes": "Storage depot for bulk burner phones and transit stolen electronics before retail redistribution."
+  },
+  {
+    "id": "E-LOC-010",
+    "name": "ICD Tughlakabad Rail Freight Yard",
+    "type": "Location",
+    "primaryCase": "CASE-628",
+    "associatedCases": [
+      "CASE-628"
+    ],
+    "confidence": 92,
+    "identifiers": {
+      "coordinates": "28.5132° N, 77.2910° E",
+      "address": "Tughlakabad Inland Container Depot, South Delhi"
+    },
+    "attributes": {
+      "siteType": "Inland Customs Dry Port",
+      "railConnections": "Northern Railway Container Siding"
+    },
+    "notes": "Transit destination for doctored customs manifests issued by Harish Chawla."
+  },
+  {
+    "id": "E-LOC-011",
+    "name": "Ankleshwar GIDC Chemical Zone",
+    "type": "Location",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731"
+    ],
+    "confidence": 97,
+    "identifiers": {
+      "coordinates": "21.6264° N, 73.0152° E",
+      "address": "GIDC Industrial Estate, Ankleshwar, Bharuch, Gujarat"
+    },
+    "attributes": {
+      "siteType": "Specialized Chemical Processing Zone"
+    },
+    "notes": "Origin point of diverted solvent tanker shipments from SolvoChem Synthesis plant."
+  },
+  {
+    "id": "E-LOC-012",
+    "name": "Dahej SEZ Bulk Marine Terminal",
+    "type": "Location",
+    "primaryCase": "CASE-731",
+    "associatedCases": [
+      "CASE-731",
+      "CASE-128"
+    ],
+    "confidence": 91,
+    "identifiers": {
+      "coordinates": "21.7103° N, 72.5802° E",
+      "address": "Dahej Special Economic Zone, Gulf of Khambhat"
+    },
+    "attributes": {
+      "siteType": "Bulk Liquid Chemical Jetty"
+    },
+    "notes": "Coastal facility where diverted solvents are loaded onto coastal cargo crafts."
+  },
+  {
+    "id": "E-LOC-013",
+    "name": "Express Towers Co-Working Desk 402",
+    "type": "Location",
+    "primaryCase": "CASE-844",
+    "associatedCases": [
+      "CASE-844",
+      "CASE-101"
+    ],
+    "confidence": 98,
+    "identifiers": {
+      "coordinates": "18.9281° N, 72.8229° E",
+      "address": "Floor 4, Express Towers, Nariman Point, Mumbai"
+    },
+    "attributes": {
+      "siteType": "Virtual Office Desk Cluster",
+      "registeredEntitiesCount": 34
+    },
+    "notes": "Single shared co-working hot desk registered as official headquarters for 34 dummy companies."
+  },
+  {
+    "id": "E-LOC-014",
+    "name": "Kutch Highway Fuel Oasis & Bulk Depot",
+    "type": "Location",
+    "primaryCase": "CASE-955",
+    "associatedCases": [
+      "CASE-955"
+    ],
+    "confidence": 95,
+    "identifiers": {
+      "coordinates": "23.2420° N, 70.1337° E",
+      "address": "NH-8A Milepost 114, Gandhidham, Kutch, Gujarat"
+    },
+    "attributes": {
+      "siteType": "Highway Decanting Yard & Unregistered Bunkering"
+    },
+    "notes": "Offloading depot where tanker V004 siphoned 24,000 liters of industrial diesel into underground tanks."
+  },
+  {
+    "id": "E-LOC-015",
+    "name": "Delhi IGI Airport Cargo Complex",
+    "type": "Location",
+    "primaryCase": "CASE-106",
+    "associatedCases": [
+      "CASE-106"
+    ],
+    "confidence": 96,
+    "identifiers": {
+      "coordinates": "28.5562° N, 77.0999° E",
+      "address": "Air Cargo Terminal 2, IGI Airport, New Delhi"
+    },
+    "attributes": {
+      "siteType": "International Air Cargo Terminal",
+      "customsAirsideGate": "Gate 11 West"
+    },
+    "notes": "Airside logistics facility where serialized shipments of imported microchips and phones were pilfered."
+  },
+  {
+    "id": "E-LOC-016",
+    "name": "Veraval Fishing Harbour Deep Anchorage",
+    "type": "Location",
+    "primaryCase": "CASE-128",
+    "associatedCases": [
+      "CASE-128"
+    ],
+    "confidence": 97,
+    "identifiers": {
+      "coordinates": "20.9012° N, 70.3644° E",
+      "address": "Veraval Outer Harbour, Gir Somnath, Gujarat"
+    },
+    "attributes": {
+      "siteType": "Deep-Water Fishing Harbour & Anchorage"
+    },
+    "notes": "Mooring point for dhow Al-Madina and launch Sagarika during illicit transshipment operations."
+  }
+]
