@@ -24,6 +24,10 @@ function AppShellContent({ children }: AppShellProps) {
     setIsMobileNavOpen(false);
   }
 
+  // Route security check: handles /login, /login/, query params, etc.
+  const cleanPath = pathname?.replace(/\/+$/, '') || '';
+  const isLoginRoute = cleanPath === '/login' || pathname?.startsWith('/login');
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
@@ -38,13 +42,13 @@ function AppShellContent({ children }: AppShellProps) {
 
   // Route security gate: Redirect unauthenticated officers to /login
   useEffect(() => {
-    if (!isLoading && !isAuthenticated && pathname !== '/login') {
+    if (!isLoading && !isAuthenticated && !isLoginRoute) {
       router.replace('/login');
     }
-  }, [isLoading, isAuthenticated, pathname, router]);
+  }, [isLoading, isAuthenticated, isLoginRoute, router]);
 
-  // If on login route, render cleanly full screen
-  if (pathname === '/login') {
+  // If on login route, render cleanly full screen without any sidebar or header
+  if (isLoginRoute) {
     return <>{children}</>;
   }
 

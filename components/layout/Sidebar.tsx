@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import {
   LayoutDashboard,
   FolderKanban,
@@ -29,6 +29,7 @@ export interface SidebarProps {
 
 export function Sidebar({ isMobileOpen = false, onCloseMobile }: SidebarProps) {
   const pathname = usePathname();
+  const router = useRouter();
   const { user, logout } = useAuth();
 
   // Dynamic counts from data service with live reactive updates
@@ -167,7 +168,10 @@ export function Sidebar({ isMobileOpen = false, onCloseMobile }: SidebarProps) {
 
             <button
               type="button"
-              onClick={logout}
+              onClick={() => {
+                logout();
+                router.push('/login');
+              }}
               title="Lock Terminal / Sign Out"
               className="size-8 rounded hover:bg-red-50 text-slate-500 hover:text-red-600 flex items-center justify-center transition-colors shrink-0 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-red-500"
               aria-label="Lock Terminal and Sign Out"

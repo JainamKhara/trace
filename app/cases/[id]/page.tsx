@@ -18,6 +18,7 @@ import {
   ShieldAlert
 } from 'lucide-react';
 import {
+  getCases,
   getCaseById,
   getEntitiesByCase,
   getRelationshipsByCase,
@@ -33,6 +34,13 @@ import { ClassificationBadge } from '@/components/common/ClassificationBadge';
 import { InvestigativeLeadCard } from '@/components/common/InvestigativeLeadCard';
 import type { CaseStatus } from '@/types/investigation';
 import { cn } from '@/lib/utils';
+
+export async function generateStaticParams() {
+  const cases = getCases();
+  return cases.map((c) => ({
+    id: c.id,
+  }));
+}
 
 interface PageProps {
   params: Promise<{ id: string }>;
